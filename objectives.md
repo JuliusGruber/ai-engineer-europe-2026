@@ -14,15 +14,16 @@ What I want to learn and take home from AI Engineer Europe 2026.
 - Learn how to measure whether my coding agent harness is actually producing better code — merge rate, first-pass acceptance, token efficiency — not building eval pipelines for agent products I ship to others.
   - [ETH Zurich AGENTbench study — context must be measured, not assumed](https://www.infoq.com/news/2026/03/agents-context-file-value-review/)
 
-## Priority Ranking
+## What to Look For
 
-When sessions conflict, choose by this order:
+When choosing between sessions, ask:
 
-1. **Harness Engineering** — this IS the discipline of getting results from agents in messy real codebases
-2. **Coding Agents in Practice** — how teams apply harness engineering in production
-3. **Context Engineering** — a critical subset of harness engineering, but a subset
-4. **Measurement** — knowing if harness/context changes actually improve my coding agent's output (not eval frameworks for agent products)
-5. **Meta** — interesting but won't change what you do Monday morning
+- **Does it work on a real codebase?** Techniques must transfer to repos with history, tech debt, and scale — not clean demos on greenfield code.
+- **Can I use this Monday morning?** Harness config, context patterns, skills, feedback loops — something I can apply to my setup immediately.
+- **Is the speaker running this in production?** Prioritize teams shipping with coding agents at scale over prototypes and research-only results.
+- **Does it make the harness or the context better?** Progressive disclosure, event sourcing, structured handoffs, demand-driven context, context engines — these are the levers that move merge rate.
+- **Can I measure the improvement?** Merge rate, first-pass acceptance, token efficiency — if a technique can't be measured, it's vibes.
+- **Is it about using coding agents, not building agent apps?** Filter out sessions about shipping AI products to end users or eval frameworks for agent applications.
 
 ## Context Engineering
 
