@@ -2,14 +2,16 @@
 
 What I want to learn and take home from AI Engineer Europe 2026.
 
+**Scope:** Everything here is about being a better *user* of coding agents — improving my harness, context, and workflow so agents produce mergeable code in real codebases. I am not building agent-based applications for end users.
+
 ## Primary Goals
 
-- Learn the entire discipline of making agents produce reliable code in real production codebases — harness engineering as defined by Lopopolo: progressive disclosure, mechanical enforcement, feedback loops, garbage collection, and repository as single source of truth.
+- Learn the entire discipline of making agents produce reliable code in real production codebases — harness engineering as defined by Lopopolo and Hashimoto: progressive disclosure, mechanical enforcement, feedback loops, garbage collection, and repository as single source of truth.
   - [OpenAI — "Harness engineering: leveraging Codex in an agent-first world"](https://openai.com/index/harness-engineering/)
   - [Mitchell Hashimoto — "My AI Adoption Journey"](https://mitchellh.com/writing/my-ai-adoption-journey)
 - Results on real code or it didn't happen — filter every talk or workshop through: does this work on a production codebase with history, tech debt, and scale?
   - [Spotify — "Background Coding Agents: Context Engineering (Honk, Part 2)"](https://engineering.atspotify.com/2025/11/context-engineering-background-coding-agents-part-2)
-- Learn how to measure whether my agent workflows are actually getting better — without measurement, improvements are vibes.
+- Learn how to measure whether my coding agent harness is actually producing better code — merge rate, first-pass acceptance, token efficiency — not building eval pipelines for agent products I ship to others.
   - [ETH Zurich AGENTbench study — context must be measured, not assumed](https://www.infoq.com/news/2026/03/agents-context-file-value-review/)
   - [APEX-Agents benchmark — frontier models complete only ~24% of real professional tasks](https://arxiv.org/abs/2601.14242)
 
@@ -20,7 +22,7 @@ When sessions conflict, choose by this order:
 1. **Harness Engineering** — this IS the discipline of getting results from agents in messy real codebases
 2. **Coding Agents in Practice** — how teams apply harness engineering in production
 3. **Context Engineering** — a critical subset of harness engineering, but a subset
-4. **Measurement** — knowing if improvements are real
+4. **Measurement** — knowing if harness/context changes actually improve my coding agent's output (not eval frameworks for agent products)
 5. **Meta** — interesting but won't change what you do Monday morning
 
 ## Context Engineering
