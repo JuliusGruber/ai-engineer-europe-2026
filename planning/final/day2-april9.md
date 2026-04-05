@@ -112,7 +112,6 @@
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
 | St. James | (title TBA) | Nuno Campos | Context Engineering | LangChain co-founder. Given their "Anatomy of an Agent Harness" post (Ralph Loop, filesystem as primitive, context rot countermeasures), likely a deep technical talk. **Strong alternative.** |
-| Westminster | Agents on the Canvas in tldraw | Steve Ruiz | Harness Engineering | Interesting but about building an agent product, not using coding agents — filter it out per your objectives |
 
 ---
 
