@@ -32,14 +32,14 @@ When choosing between sessions, ask:
   - [Anthropic — "Equipping Agents for the Real World with Agent Skills"](https://claude.com/blog/equipping-agents-for-the-real-world-with-agent-skills)
 - How do I stop guessing what context to give agents and let them tell me what's missing?
   - [Anthropic — "Effective context engineering for AI agents"](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
-- How do skills and MCP work together in practice, and what does the data say about the combination?
+- When should context live in a skill vs. behind an MCP server? What does the data show about using both together vs. either alone?
   - [Anthropic — Agent Skills open standard](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
   - [Model Context Protocol](https://modelcontextprotocol.io/)
 - How should agent memory and context be structured? What patterns exist for organizing what agents know and when they know it?
   - [Anthropic — "Effective context engineering for AI agents"](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
   - [LangChain — "Context Engineering for Agents"](https://blog.langchain.com/context-engineering-for-agents/)
   - [Manus — "Context Engineering for AI Agents"](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)
-- What makes the difference between an agent that produces mergeable code on the first try and one that burns through tokens going in circles?
+- What separates an agent run that ships clean code from one that spirals through tokens and corrections — is it the context, the task decomposition, or the guardrails?
   - [Drew Breunig — "How Long Contexts Fail"](https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html)
   - [Vercel — "We removed 80% of our agent's tools"](https://vercel.com/blog/we-removed-80-percent-of-our-agents-tools)
 
@@ -49,7 +49,7 @@ When choosing between sessions, ask:
   - [LangChain — "The Anatomy of an Agent Harness"](https://blog.langchain.com/the-anatomy-of-an-agent-harness/)
   - [Martin Fowler — "Harness engineering for coding agent users"](https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html)
   - [OpenAI — "Unrolling the Codex agent loop"](https://openai.com/index/unrolling-the-codex-agent-loop/)
-- How do I debug agents that run for hours? What's the equivalent of a stack trace when the failure happened 45 minutes ago?
+- How do I debug long-running agent sessions? What's the equivalent of a stack trace when the failure happened 45 minutes ago?
   - [Anthropic — "Effective harnesses for long-running agents"](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
   - [Anthropic — "Harness design for long-running application development"](https://www.anthropic.com/engineering/harness-design-long-running-apps)
 - How should agent sessions handle real-world interruptions — network drops, user pauses, context switches — without losing progress?
