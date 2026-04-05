@@ -32,6 +32,30 @@
 
 ---
 
+### 1:00 - 3:00pm | Wordsworth
+
+**Mergeable by default: Building the context engine to save time and tokens**
+
+| | |
+|---|---|
+| **Speaker** | Peter Werry |
+| **Company** | Unblocked |
+| **Type** | Workshop |
+
+---
+
+### 3:30 - 5:30pm | Shelley
+
+**Build Your First Demand-Driven Context Base: Let AI Agents Tell You What They Need**
+
+| | |
+|---|---|
+| **Speaker** | Raj Navakoti |
+| **Company** | IKEA Digital |
+| **Type** | Workshop |
+
+---
+
 ## April 9 (Wednesday)
 
 ### 9:50 - 10:10am | Keynote Stage
