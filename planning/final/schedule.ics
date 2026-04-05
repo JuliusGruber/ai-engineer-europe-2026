@@ -32,6 +32,15 @@ CATEGORIES:Workshop
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260408T104000
+DTEND;TZID=Europe/London:20260408T120000
+SUMMARY:Skills at Scale
+DESCRIPTION:Workshop by Nick Nisi & Zack Proser\nWrite portable skills for Claude Code\, Cursor\, and Codex
+LOCATION:Abbey\, Queen Elizabeth II Centre\, London
+CATEGORIES:Workshop
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=Europe/London:20260409T095000
 DTEND;TZID=Europe/London:20260409T101000
 SUMMARY:Harness Engineering: How to Build Software When Humans Steer and Agents Execute
