@@ -29,6 +29,10 @@ Improve how I use coding agents to produce code — by understanding and applyin
 - Evaluation pipelines for agentic coding workflows — how to know if improvements actually work
 - The human side: when comprehension matters more than generation, and where judgment beats automation
 
+## Real-World Validation
+
+- Results on real code or it didn't happen — filter every talk through: does this work on a production codebase with history, tech debt, and scale?
+
 ## Meta
 
 - What changes when inference hits 1000+ tok/s — how speed shifts iteration patterns and agent design
