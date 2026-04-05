@@ -44,14 +44,13 @@
 
 ---
 
-### 3:30 - 5:30pm | Shelley
+### 3:30 - 5:30pm | St. James (alt: Shelley)
 
-**Build Your First Demand-Driven Context Base: Let AI Agents Tell You What They Need**
+**AI Coding For Real Engineers** (alt: Build Your First Demand-Driven Context Base)
 
 | | |
 |---|---|
-| **Speaker** | Raj Navakoti |
-| **Company** | IKEA Digital |
+| **Speaker** | Matt Pocock (alt: Raj Navakoti, IKEA Digital) |
 | **Type** | Workshop |
 
 ---
