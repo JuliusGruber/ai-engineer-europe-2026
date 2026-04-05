@@ -8,6 +8,16 @@ What I want to learn and take home from AI Engineer Europe 2026.
 - Results on real code or it didn't happen — filter every talk through: does this work on a production codebase with history, tech debt, and scale?
 - Learn how to measure whether my agent workflows are actually getting better — without measurement, improvements are vibes.
 
+## Priority Ranking
+
+When sessions conflict, choose by this order:
+
+1. **Coding Agents in Practice** — directly about shipping with agents in messy real codebases
+2. **Context Engineering** — the difference between an agent that understands your codebase and one that breaks things
+3. **Harness Engineering** — keeping agents safe and debuggable in high-stakes code
+4. **Measurement** — knowing if improvements are real
+5. **Meta** — interesting but won't change what you do Monday morning
+
 ## Context Engineering
 
 - How to write, evaluate, and iterate on Agent Skills effectively
