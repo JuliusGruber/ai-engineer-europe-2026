@@ -9,7 +9,15 @@
 
 ## April 8 (Tuesday)
 
-*No sessions selected yet.*
+### 9:00 - 10:20am | St. James
+
+**How to Build Agents That Run for Hours (Without Losing the Plot)**
+
+| | |
+|---|---|
+| **Speakers** | Ash Prabaker, Andrew Wilson |
+| **Company** | Anthropic |
+| **Type** | Workshop |
 
 ---
 
