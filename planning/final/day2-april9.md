@@ -158,7 +158,6 @@
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
 | Fleming | Lobster Trap: OpenClaw in Containers from Local to K8s | Sally Ann O'Malley | Claws & Personal Agents | Containerizing agent setups — relevant if you want reproducible harness environments |
-| Westminster | Building a Chess Coach | Anant Dole, Asbjørn Steinskog | Harness Engineering | Magnus Carlsen's app. Building an AI product for users — filter out per objectives |
 
 ---
 
