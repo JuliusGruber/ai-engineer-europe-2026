@@ -201,14 +201,14 @@
 
 > **Why:** Complements the benchmarking talk. Maps to measuring improvement. Phil also speaks about eval platforms in the morning slot — this is the practical how-to version.
 
-#### SUGGESTED: 1:45 - 2:03pm | Shelley
+#### 1:45 - 2:03pm | Shelley
 
 **BDD, ADR, PRD, WTF: Capturing Decisions for Humans and AI Alike**
 
 | | |
 |---|---|
 | **Type** | Expo Session |
-| **Status** | **SUGGESTED** |
+| **Status** | **CHOSEN** |
 
 > **Why:** Directly about making Codex and Claude Code productive by capturing architectural decisions. Maps to Lopopolo's `docs/` structure (design-docs, exec-plans) and Fowler's "guides as feedforward." The title suggests practical patterns for decision artifacts that serve both human and agent consumption.
 
@@ -349,7 +349,7 @@
 | 12:20-12:40pm | Moore | Skill Issue (Marc Klingen) | Suggested |
 | 12:40-1:00pm | Moore | Benchmarking Agents (Vincent Chen) | Suggested |
 | 1:05-1:23pm | Wordsworth | Maturity Phases of Evals (Phil Hetzel) | Suggested |
-| 1:45-2:03pm | Shelley | BDD, ADR, PRD, WTF | Suggested |
+| 1:45-2:03pm | Shelley | BDD, ADR, PRD, WTF | **CHOSEN** |
 | 2:30-2:50pm | Westminster | Harnesses in AI (Tejas Kumar) | Suggested |
 | 2:50-3:10pm | Moore | Self Driving Products (Joshua Snyder) | Suggested |
 | 3:10-3:30pm | St. James | Skills + MCP (Pedro Rodrigues) | Suggested |
