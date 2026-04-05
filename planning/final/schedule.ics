@@ -41,6 +41,24 @@ CATEGORIES:Workshop
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260408T130000
+DTEND;TZID=Europe/London:20260408T150000
+SUMMARY:Mergeable by default: Building the context engine to save time and tokens
+DESCRIPTION:Workshop by Peter Werry (Unblocked)\nBuilding a context engine for organizational context delivery
+LOCATION:Wordsworth\, Queen Elizabeth II Centre\, London
+CATEGORIES:Workshop
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID=Europe/London:20260408T153000
+DTEND;TZID=Europe/London:20260408T173000
+SUMMARY:Build Your First Demand-Driven Context Base: Let AI Agents Tell You What They Need
+DESCRIPTION:Workshop by Raj Navakoti (IKEA Digital)\nDemand-driven context discovery using Claude Code sub-agents
+LOCATION:Shelley\, Queen Elizabeth II Centre\, London
+CATEGORIES:Workshop
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID=Europe/London:20260409T095000
 DTEND;TZID=Europe/London:20260409T101000
 SUMMARY:Harness Engineering: How to Build Software When Humans Steer and Agents Execute
