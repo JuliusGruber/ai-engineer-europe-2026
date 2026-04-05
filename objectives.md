@@ -2,9 +2,11 @@
 
 What I want to learn and take home from AI Engineer Europe 2026.
 
-## Primary Goal
+## Primary Goals
 
-Improve how I use coding agents to produce code — by understanding and applying better context engineering and harness engineering.
+- Improve how I use coding agents to produce code — by understanding and applying better context engineering and harness engineering.
+- Results on real code or it didn't happen — filter every talk through: does this work on a production codebase with history, tech debt, and scale?
+- Learn how to measure whether my agent workflows are actually getting better — without measurement, improvements are vibes.
 
 ## Context Engineering
 
@@ -28,10 +30,6 @@ Improve how I use coding agents to produce code — by understanding and applyin
 - How production teams (HuggingFace, incident.io, IKEA Digital, Linear) actually use coding agents at scale
 - Evaluation pipelines for agentic coding workflows — how to know if improvements actually work
 - The human side: when comprehension matters more than generation, and where judgment beats automation
-
-## Real-World Validation
-
-- Results on real code or it didn't happen — filter every talk through: does this work on a production codebase with history, tech debt, and scale?
 
 ## Meta
 
