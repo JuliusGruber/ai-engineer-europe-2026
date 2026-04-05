@@ -4,7 +4,7 @@ What I want to learn and take home from AI Engineer Europe 2026.
 
 ## Primary Goals
 
-- Improve how I use coding agents to produce code — by understanding and applying better context engineering and harness engineering.
+- Learn the entire discipline of making agents produce reliable code in real production codebases — harness engineering as defined by Lopopolo: progressive disclosure, mechanical enforcement, feedback loops, garbage collection, and repository as single source of truth.
 - Results on real code or it didn't happen — filter every talk through: does this work on a production codebase with history, tech debt, and scale?
 - Learn how to measure whether my agent workflows are actually getting better — without measurement, improvements are vibes.
 
@@ -12,9 +12,9 @@ What I want to learn and take home from AI Engineer Europe 2026.
 
 When sessions conflict, choose by this order:
 
-1. **Coding Agents in Practice** — directly about shipping with agents in messy real codebases
-2. **Context Engineering** — the difference between an agent that understands your codebase and one that breaks things
-3. **Harness Engineering** — keeping agents safe and debuggable in high-stakes code
+1. **Harness Engineering** — this IS the discipline of getting results from agents in messy real codebases
+2. **Coding Agents in Practice** — how teams apply harness engineering in production
+3. **Context Engineering** — a critical subset of harness engineering, but a subset
 4. **Measurement** — knowing if improvements are real
 5. **Meta** — interesting but won't change what you do Monday morning
 
