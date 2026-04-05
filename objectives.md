@@ -13,7 +13,6 @@ What I want to learn and take home from AI Engineer Europe 2026.
   - [Spotify — "Background Coding Agents: Context Engineering (Honk, Part 2)"](https://engineering.atspotify.com/2025/11/context-engineering-background-coding-agents-part-2)
 - Learn how to measure whether my coding agent harness is actually producing better code — merge rate, first-pass acceptance, token efficiency — not building eval pipelines for agent products I ship to others.
   - [ETH Zurich AGENTbench study — context must be measured, not assumed](https://www.infoq.com/news/2026/03/agents-context-file-value-review/)
-  - [APEX-Agents benchmark — frontier models complete only ~24% of real professional tasks](https://arxiv.org/abs/2601.14242)
 
 ## Priority Ranking
 
