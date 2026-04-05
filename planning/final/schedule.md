@@ -21,6 +21,17 @@
 
 ---
 
+### 10:40am - 12:00pm | Abbey
+
+**Skills at Scale**
+
+| | |
+|---|---|
+| **Speakers** | Nick Nisi, Zack Proser |
+| **Type** | Workshop |
+
+---
+
 ## April 9 (Wednesday)
 
 ### 9:50 - 10:10am | Keynote Stage
