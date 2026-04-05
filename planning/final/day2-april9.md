@@ -49,7 +49,7 @@
 
 ## Break / Expo Sessions (10:30 - 11:08am)
 
-### SUGGESTED: 10:30 - 10:48am | Wordsworth
+### 10:30 - 10:48am | Wordsworth
 
 **Stop Babysitting Your Agents: Building a Context Engine for Mergeable Code**
 
@@ -57,7 +57,7 @@
 |---|---|
 | **Speaker** | Brandon Walsenuk |
 | **Type** | Expo Session |
-| **Status** | **SUGGESTED** |
+| **Status** | **CHOSEN** |
 
 > **Why:** The title is your entire thesis — context engines for mergeable code. Maps directly to your objective of making agents produce mergeable code in real codebases. Worth catching before the tracks begin.
 
@@ -344,7 +344,7 @@
 | Time | Room | Session | Status |
 |---|---|---|---|
 | 9:00-10:30am | Keynote | All morning keynotes (incl. Lopopolo) | **CHOSEN** |
-| 10:30-10:48am | Wordsworth | Stop Babysitting Your Agents | Suggested |
+| 10:30-10:48am | Wordsworth | Stop Babysitting Your Agents | **CHOSEN** |
 | 11:15-11:40am | Westminster | Harness Engineering AMA (Lopopolo) | **CHOSEN** |
 | 11:40-12:00pm | Moore | LLM Codegen Fails (Danilo Campos) | Suggested |
 | 12:00-12:20pm | St. James | Hierarchical Memory (Sally-Ann Delucia) | Suggested |
