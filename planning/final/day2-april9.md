@@ -65,7 +65,7 @@
 
 ## Track Sessions — Slot 1 (11:15 - 11:40am)
 
-### 11:15 - 11:40am | Westminster — Harness Engineering AMA
+### SUGGESTED: 11:15 - 11:40am | Westminster — Harness Engineering AMA
 
 | | |
 |---|---|
@@ -73,7 +73,7 @@
 | **Role** | Member of Technical Staff @ OpenAI |
 | **Type** | Track Keynote |
 | **Track** | Harness Engineering |
-| **Status** | **CHOSEN** |
+| **Status** | **SUGGESTED** |
 | **Links** | [Twitter](https://x.com/_lopopolo) · [LinkedIn](https://www.linkedin.com/in/ryanlopopolo/) · [GitHub](https://github.com/lopopolo) |
 
 > **Prepared questions from reading:**
@@ -343,7 +343,7 @@
 |---|---|---|---|
 | 9:00-10:30am | Keynote | All morning keynotes (incl. Lopopolo) | **CHOSEN** |
 | 10:30-10:48am | Wordsworth | Stop Babysitting Your Agents | **CHOSEN** |
-| 11:15-11:40am | Westminster | Harness Engineering AMA (Lopopolo) | **CHOSEN** |
+| 11:15-11:40am | Westminster | Harness Engineering AMA (Lopopolo) | Suggested |
 | 11:40-12:00pm | Moore | LLM Codegen Fails (Danilo Campos) | Suggested |
 | 12:00-12:20pm | St. James | Hierarchical Memory (Sally-Ann Delucia) | Suggested |
 | 12:20-12:40pm | Moore | Skill Issue (Marc Klingen) | Suggested |
