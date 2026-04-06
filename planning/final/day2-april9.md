@@ -227,25 +227,26 @@
 
 ## Track Sessions — Slot 6 (2:30 - 2:50pm)
 
-### SUGGESTED: 2:30 - 2:50pm | Westminster
+### SUGGESTED: 2:30 - 2:50pm | Moore
 
-**Harnesses in AI: A Deep Dive**
+**Evals Are Broken, Use Them Anyway**
 
 | | |
 |---|---|
-| **Speaker** | Tejas Kumar |
+| **Speaker** | Ara Khan |
+| **Role** | Cline |
 | **Type** | Talk |
-| **Track** | Harness Engineering |
+| **Track** | Evals & Observability |
 | **Status** | **SUGGESTED** |
 
-> **Why:** By this point you've seen Lopopolo's keynote + AMA. Tejas likely offers a different angle on the same topic. Cross-reference with Fowler's taxonomy (guides vs. sensors, computational vs. inferential, three harness types) and Anthropic's GAN-inspired generator/evaluator split. Listen for: does Tejas present patterns you haven't seen, or does he confirm the Fowler/OpenAI/Anthropic convergence?
+> **Why:** By 2:30 you'll have had two Lopopolo touchpoints already (keynote + AMA), so a third harness deep-dive would be marginal. Ara is the practical-measurement angle you actually need. Her published *A Practical Guide to Hill Climbing* documents Cline going from 47% → 57% on Terminal Bench through eval iteration — exactly the "results on real code" + "measure my harness changes" combination your objectives demand. Pair with her *3 Seductive Traps in Agent Building* and *AI Evals Are Broken* (non-static datasets, atomicity, model-specific tuning). Listen for: what does her hill-climbing loop look like concretely, and how do you parse agent task traces to build evals that actually move the number?
 
 #### Alternatives in this slot
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
+| Westminster | Harnesses in AI: A Deep Dive | Tejas Kumar | Harness Engineering | Third harness session of the day after Lopopolo keynote + AMA — likely confirmation of Fowler/OpenAI/Anthropic convergence rather than new patterns |
 | St. James | Connecting the Dots with Context Graphs | Stephen Chin | Context Engineering | Graph-structured context — different paradigm from file-based. Worth it if you want to explore beyond filesystem-as-context |
-| Moore | Evals Are Broken, Use Them Anyway | Ara Khan | Evals & Observability | Pragmatic eval guidance. **Strong alternative** if the morning benchmarking talk left you wanting more on measurement |
 
 ---
 
@@ -369,7 +370,7 @@
 | 1:05-1:23pm | Wordsworth | Maturity Phases of Evals (Phil Hetzel) | Suggested |
 | 1:25-1:43pm | Wesley | Untethered Productivity | **CHOSEN** |
 | 1:45-2:03pm | Shelley | BDD, ADR, PRD, WTF | **CHOSEN** |
-| 2:30-2:50pm | Westminster | Harnesses in AI (Tejas Kumar) | Suggested |
+| 2:30-2:50pm | Moore | Evals Are Broken, Use Them Anyway (Ara Khan) | Suggested |
 | 2:50-3:10pm | Moore | Self Driving Products (Joshua Snyder) | Suggested |
 | 3:10-3:30pm | St. James | Skills + MCP (Pedro Rodrigues) | Suggested |
 | 3:45-4:03pm | Shelley | Agent O11y (Phil Hetzel) | Suggested |
@@ -380,5 +381,3 @@
 1. **3:10pm — Pedro Rodrigues vs. SWE-rebench (Badertdinov).** Pedro answers your skills/MCP question directly. SWE-rebench answers your measurement question. If you feel confident on skills/MCP from the Marc Klingen talk and reading, swap to SWE-rebench.
 
 2. **11:40am — Danilo Campos vs. Nuno Campos.** Both are strong. Danilo is concrete failure modes; Nuno (LangChain) is likely deeper on context architecture. If Maggie Appleton's talk at 11:15 (which you'll miss for Lopopolo AMA) covered context engineering foundations, Nuno may be redundant.
-
-3. **2:30pm — Tejas Kumar vs. Ara Khan.** If the morning sessions satisfied your harness curiosity, swap to Ara Khan's "Evals Are Broken, Use Them Anyway" for more measurement depth.
