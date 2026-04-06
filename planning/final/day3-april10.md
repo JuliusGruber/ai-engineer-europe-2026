@@ -238,30 +238,35 @@
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
-| Westminster | Software Engineering Is Becoming Plan and Review | Louis Knight-Webb (Vibe Kanban) | AI Architects | Plan/review as the new engineering job. Directly answers "where do humans add the most value in the loop?" **Strong alternative** if you feel skills-saturated by this point in the conference |
+| St. James | **Lessons from Scaling GitHub's Remote MCP Server** | Sam Morrow (GitHub) | MCP | **Strongest alternative.** 9/10 speaker, MCP spec co-author. 4M+ downloads of the stdio server, the canonical large-scale MCP server case study. With Hablich (11:40 Chrome DevTools MCP) earlier, Morrow is the production-at-scale pair. Skip only if you've already decided MCP is downstream of skills for your harness |
+| Westminster | Software Engineering Is Becoming Plan and Review | Louis Knight-Webb (Vibe Kanban) | AI Architects | Plan/review as the new engineering job. Directly answers "where do humans add the most value in the loop?" Strong alternative if you feel skills-saturated by this point in the conference |
 
 ---
 
 ## Track Sessions — Slot 7 (2:50 - 3:10pm)
 
-### SUGGESTED: 2:50 - 3:10pm | Fleming
+### CHOSEN: 2:50 - 3:10pm | Westminster
 
-**Let's Talk About FOMAT — Fear of Missing Agent Time**
+**How Building with AI Can Double the Throughput of Your Engineering Team**
 
 | | |
 |---|---|
-| **Speaker** | Michael Richman |
+| **Speaker** | Brian Scanlan |
+| **Company** | Intercom |
 | **Type** | Talk |
-| **Track** | Coding Agents |
-| **Status** | **SUGGESTED**  |
+| **Track** | AI Architects |
+| **Status** | **CHOSEN** |
 
-> **Why:** Practical tooling for Hashimoto's "always have an agent running" step. Monitor and interact with coding agents from phone/watch, works across Claude Code, Codex, Gemini CLI. The async control-plane pattern is a workflow multiplier that complements Day 2's Untethered Productivity (worktrees + voice dictation) and the morning's durability talk (Allam). Lighter talk — good for energy management late in the day. **Only suggested**, not chosen — if you're flagging, take the break instead.
+> **Why:** One of the two production-at-scale field reports of Day 3 (the other is Spitz at 3:10 — same room, back-to-back). Intercom has been one of the loudest published voices on coding agents in production: 13 plugins, 100+ skills, hooks, ~90% of PRs authored by Claude Code, the explicit 2x throughput initiative. Scanlan publishes the "How we use Claude Code today at Intercom" piece that maps directly onto every layer of your harness. Filter from the Day 3 thesis: does it tell me something I haven't already heard from Werry, Walsenuk, Lopopolo, Klingen, Pedro Rodrigues, Snyder, or the Anthropic harness papers? **Yes** — Intercom is a peer org running this on a real SaaS codebase with history and tech debt, not a clean demo and not a vendor showing off their own tool.
+>
+> **Bonus structural win:** Westminster → Westminster from 2:50 → 3:10 (Scanlan → Spitz) is the cleanest room flow of the afternoon. Both production case studies, same room, no context-switching. The two talks together bracket the technical and organizational sides of "what does coding agents at scale actually look like."
 
 #### Alternatives in this slot
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
-| Hallway | Decompress | — | — | After four straight Fleming talks + Burtenshaw, a 20-minute reset may be the highest-value choice |
+| Fleming | Let's Talk About FOMAT — Fear of Missing Agent Time | Michael Richman | Coding Agents | Cmd+Ctrl: phone/watch control plane for Claude Code, Codex, Gemini CLI. Practical async-agent tooling that complements Day 2's Untethered Productivity and Allam's morning durability talk. Lighter demo talk — fine if you're flagging and Scanlan feels like another "agents at scale" beat after Burtenshaw |
+| Hallway | Decompress | — | — | If you're flagging, a 20-min reset before the closing keynotes is still legitimate. But Scanlan + Spitz is the strongest 40-min block of the afternoon — protect this and decompress between Spitz and Gergely instead |
 
 ---
 
@@ -341,7 +346,7 @@
 | 1:25-1:43pm | Wesley | Stop babysitting your agents (repeat) | SKIP — seen Day 2 |
 | 1:45-2:03pm | Shelley | Comprehend First, Code Later (Sentry) | **CHOSEN** |
 | 2:30-2:50pm | Fleming | Your Coding Agent Should Do AI System Engineering (Burtenshaw, HF) | **CHOSEN** |
-| 2:50-3:10pm | Fleming | FOMAT (Michael Richman) | Suggested |
+| 2:50-3:10pm | Westminster | How Building with AI Can Double Throughput (Brian Scanlan, Intercom) | **CHOSEN** |
 | 3:10-3:30pm | Westminster | Agents Don't Do Standups (Mike Spitz) | **CHOSEN** |
 | 4:05-4:23pm | Wordsworth | Benchmarking semantic code retrieval on Claude Code | Suggested |
 | 4:30-4:50pm | Keynote | Fireside: Gergely Orosz + Tuomas Artman (Linear) | **CHOSEN** |
@@ -351,8 +356,8 @@
 
 1. **11:15am — David Gomes (Cursor) vs. Patrick Debois (Tessl).** Both 10/10 speakers in adjacent rooms with non-overlapping content. Gomes = the sharpest concrete skills proof point at the conference (60x reduction). Debois = the only Context Development Lifecycle / CI/CD-for-context talk on the schedule and the operational frame nobody else offers. The pick depends on whether you feel skills-saturated after Days 1–2 or still hungry for one more concrete proof point. **Default: Gomes.** Switch to Debois if Werry, Klingen, Pedro Rodrigues, and Walsenuk already convinced you skills work and you want governance/lifecycle thinking instead.
 
-2. **2:30pm — Ben Burtenshaw (HuggingFace) vs. Louis Knight-Webb (Vibe Kanban).** Burtenshaw = skills in the hardest technical domain (CUDA kernels, 1000+ daily ML experiments). Knight-Webb = "plan and review as the new engineering job" — directly answers "where do humans add the most value?". Default: Burtenshaw for the concrete production data. Switch to Knight-Webb if the morning already saturated your skills appetite.
+2. **2:30pm — Burtenshaw (HF) vs. Sam Morrow (GitHub) vs. Knight-Webb (Vibe Kanban).** A genuine three-way. Burtenshaw = skills in the hardest technical domain (CUDA kernels, 1000+ daily ML experiments). Morrow = the canonical large-scale MCP server case study (4M+ stdio downloads), production extension of Hablich's morning Chrome DevTools MCP talk. Knight-Webb = "plan and review as the new engineering job." **Default: Burtenshaw** for the concrete skills-in-production data. **Switch to Morrow** if you've decided MCP is more load-bearing for your harness than skills and you want to double down on the Hablich thread.
 
 3. **12:40pm — Factory Missions vs. CI/CD Is Dead.** Factory = long-running coding agent patterns extending Day 1's Anthropic workshop. CI/CD = the infrastructure bottleneck when agents open hundreds of PRs. Default: Factory — more directly applicable to your harness work. Switch if you're hitting CI capacity limits today and need the infra angle.
 
-4. **2:50pm — FOMAT vs. break.** Four straight Fleming talks plus Burtenshaw is a long stretch. If you're flagging, the 20-minute hallway reset is higher value than another light talk. The morning of Day 3 is the densest hour of the entire conference; protect the afternoon energy for the closing keynotes.
+4. **No real trade-off at 2:50pm.** Brian Scanlan at Westminster is the strongest pick by a wide margin (production case study from Intercom, peer org running Claude Code on a real SaaS codebase, ~90% of PRs by Claude Code). FOMAT is the fallback only if you're flagging and a phone-based control-plane demo feels like enough. Westminster also keeps you in the same room for Spitz at 3:10 — protect this 40-min block and decompress *between* Spitz and the Gergely fireside instead.
