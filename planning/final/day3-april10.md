@@ -4,6 +4,8 @@
 **Venue:** Queen Elizabeth II Centre, London, UK
 
 > **Day 3 thesis.** Days 1–2 built the foundations: harness/skills/context-engine workshops, the Lopopolo keynote + AMA, hierarchical memory, Skills+MCP, measurement, and the full daily workflow. Day 3 fills the remaining gaps — **long-running durability, latency-driven workflow shifts, production case studies at scale, agent-on-agent debugging, and the closing human-judgment frame.** Filter every alternative through: does it tell me something I haven't already heard from Werry, Walsenuk, Lopopolo, Klingen, Pedro Rodrigues, Snyder, or the Anthropic harness papers?
+>
+> **Abstract-risk inventory.** Four CHOSEN slots have a "TBA / TODO" abstract in `aie` and are picks-by-default with the risk acknowledged: **Soria Parra** (9:20 keynote), **Gomes** alternative at 11:15 (David Gomes is a 9/10 speaker but the abstract is literally "TODO"), **Factory Missions** (12:40 — speakers confirmed, content inferred from Factory's published docs), and the **Gergely + Artman fireside** (4:30 — abstract not posted). Treat the framing in those rows as published-research-derived, not promised-by-the-talk.
 
 ---
 
@@ -27,6 +29,7 @@
 | | |
 |---|---|
 | **Speaker** | Peter Gostev |
+| **Company** | Arena.ai (AI Capability Lead) |
 | **Type** | Keynote |
 | **Status** | **CHOSEN** |
 
@@ -67,7 +70,7 @@
 
 > **Why:** Case is Nick Nisi's published harness work (10/10 in speakers.md, *Case Statement: Building a Harness — 6-agent deterministic pipeline*). Abstract: *"agent-ready means a codebase agents can safely change, and a product agents can reliably use… clear constraints, machine-friendly interfaces, and feedback loops that compound over time."* Direct hit on the harness-engineering objective and the cheapest addition on Day 3 — Zechner ends at 10:30, this starts at 10:30 in Wesley, ends at 10:48, and Allam starts at 10:50 in the same room. Walk straight from the Keynote Stage to Wesley after Zechner and stay there for the next 38 minutes.
 >
-> **Caveats:** (1) `aie` lists no speaker for this slot — the Nisi attribution is inferred from the abstract's references to Case + WorkOS CLI. The presenter may instead be Zack Proser or another Case/WorkOS team member. (2) If the speaker turns out to be Nisi and they cover the same Case material from the Day 1 Skills at Scale workshop you're already attending, this is a partial repeat. Listen for whether the "WorkOS CLI as a product agents can reliably use" angle is new.
+> **Caveats:** (1) `aie` lists no speaker for this slot — the Nisi attribution is inferred from the abstract's references to Case + WorkOS CLI. The abstract uses singular "**I'll** walk through," so it is one speaker, not the Nisi+Proser workshop pairing — likely Nisi *or* Proser *or* another single Case/WorkOS team member. (2) If the speaker turns out to be Nisi and they cover the same Case material from the Day 1 Skills at Scale workshop you're already attending, this is a partial repeat. Listen for whether the "WorkOS CLI as a product agents can reliably use" angle is new.
 
 #### Alternatives in this slot
 
@@ -292,7 +295,7 @@
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
 | St. James | **Lessons from Scaling GitHub's Remote MCP Server** | Sam Morrow (GitHub) | MCP | **Strongest alternative.** 9/10 speaker, MCP spec co-author. 4M+ downloads of the stdio server, the canonical large-scale MCP server case study. Pairs with Hablich (11:40 Chrome DevTools MCP) and Karan Sampath (3:10 Bringing MCPs to the Enterprise) as the **Day 3 production-MCP arc** in St. James. Taking Morrow naturally pulls Sampath at 3:10 over Spitz, giving you a coherent St. James → St. James → St. James MCP track from 11:40 onward. Skip only if you've already decided MCP is downstream of skills for your harness |
-| Westminster | Software Engineering Is Becoming Plan and Review | Louis Knight-Webb (Vibe Kanban) | AI Architects | Plan/review as the new engineering job. Directly answers "where do humans add the most value in the loop?" Strong alternative if you feel skills-saturated by this point in the conference |
+| Westminster | Software Engineering Is Becoming Plan and Review | Louis Knight-Webb (Vibe Kanban) | AI Architects | Plan/review as the new engineering job. Directly answers "where do humans add the most value in the loop?" Strong alternative if you feel skills-saturated by this point in the conference. **Caveat:** Spitz at 3:10pm covers a strict superset of this ground (post-engineer org, what humans still do, planning/review surviving agile), so picking Knight-Webb here means partial overlap — strengthens the Burtenshaw default |
 
 ---
 
@@ -312,6 +315,8 @@
 
 > **Why:** One of the two production-at-scale field reports of Day 3 (the other is Spitz at 3:10 — same room, back-to-back). Intercom has been one of the loudest published voices on coding agents in production: 13 plugins, 100+ skills, hooks, ~90% of PRs authored by Claude Code, the explicit 2x throughput initiative. Scanlan publishes the "How we use Claude Code today at Intercom" piece that maps directly onto every layer of your harness. Filter from the Day 3 thesis: does it tell me something I haven't already heard from Werry, Walsenuk, Lopopolo, Klingen, Pedro Rodrigues, Snyder, or the Anthropic harness papers? **Yes** — Intercom is a peer org running this on a real SaaS codebase with history and tech debt, not a clean demo and not a vendor showing off their own tool.
 >
+> **Abstract caveat:** The published `aie` abstract is one short paragraph — Intercom's 2x goal and "lessons and learnings… what has and hasn't worked." None of the "13 plugins / 100+ skills / hooks / ~90% of PRs" specifics above are *promised* by the talk; they're inferred from Scanlan's published Intercom posts (`speakers.md`). Confidence is higher than for the Soria Parra / Gomes / Factory Missions slots because Scanlan's posts are recent and concrete, but the abstract itself doesn't commit to any of those numbers. Listen for whether he updates the published figures or stays at the "lessons learned" altitude.
+>
 > **Bonus structural win:** Westminster → Westminster from 2:50 → 3:10 (Scanlan → Spitz) is the cleanest room flow of the afternoon. Both production case studies, same room, no context-switching. The two talks together bracket the technical and organizational sides of "what does coding agents at scale actually look like."
 
 #### Alternatives in this slot
@@ -319,7 +324,7 @@
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
 | Fleming | Let's Talk About FOMAT — Fear of Missing Agent Time | Michael Richman | Coding Agents | Cmd+Ctrl: phone/watch control plane for Claude Code, Codex, Gemini CLI. Practical async-agent tooling that complements Day 2's Untethered Productivity and Allam's morning durability talk. Lighter demo talk — fine if you're flagging and Scanlan feels like another "agents at scale" beat after Burtenshaw |
-| Abbey | Beyond Code Coverage: Functionality Testing with Playwright | Marlene Mhangami | GPUs & LLM Infra | LLM-generated unit tests pass code coverage but don't verify functionality — argues for Playwright + the new Playwright MCP server as the e2e check on agent-written code. Adjacent to "results on real code or it didn't happen" and your automated-feedback-loop objective. Skip unless your harness is missing a functional-test layer today |
+| Abbey | Beyond Code Coverage: Functionality Testing with Playwright | Marlene Mhangami (Microsoft) | GPUs & LLM Infra | LLM-generated unit tests pass code coverage but don't verify functionality — argues for Playwright + the new Playwright MCP server as the e2e check on agent-written code. Adjacent to "results on real code or it didn't happen" and your automated-feedback-loop objective. Skip unless your harness is missing a functional-test layer today |
 | Hallway | Decompress | — | — | If you're flagging, a 20-min reset before the closing keynotes is still legitimate. But Scanlan + Spitz is the strongest 40-min block of the afternoon — protect this and decompress between Spitz and Gergely instead |
 
 ---
@@ -361,6 +366,8 @@
 | **Status** | **SUGGESTED** |
 
 > **Why:** Claude Code plugin for semantic codebase search benchmarked against regex/glob/grep, with answer-quality and token-consumption numbers. If Claude Code is your daily driver, this directly affects the Guides layer of your harness. **Suggested rather than chosen** because the result depends on whether the benchmark was run on a real codebase with history and tech debt, or a clean demo — listen for the dataset before deciding it's actionable.
+>
+> **Demo-data flag in the abstract itself:** The published `aie` abstract literally says "across **a small set of representative tasks**." That's the strongest possible "small-N benchmark on synthetic tasks" signal short of admitting it. Downgrade in practice — this is closer to a "skip unless the swyx AMA in Wesley turns out to be off" call. Only worth showing up for if you specifically want the live demo of how the plugin slots into Claude Code.
 
 #### Alternatives in this slot (and the prior 3:45pm block)
 
@@ -399,7 +406,7 @@
 
 | Time | Session | Speaker | Why skip |
 |---|---|---|---|
-| 5:00 - 5:20pm | Agents need more than a chat | Jacob Lauritzen | Sits between the Gergely fireside and Ronacher. No published material aligned to objectives — use as a 20-min decompress before the closing keynote, or stay seated if Lauritzen surfaces something concrete on agent UX |
+| 5:00 - 5:20pm | Agents need more than a chat | Jacob Lauritzen (CTO, Legora — legal AI) | Sits between the Gergely fireside and Ronacher. No published material aligned to objectives, no abstract in `aie`. Legora is a legal-AI shop, so the talk *could* surface long-context / document-heavy patterns relevant to harness work — or be entirely product-side. Use as a 20-min decompress before the closing keynote, or stay seated if Lauritzen surfaces something concrete on agent UX |
 | 5:40 - 6:00pm | (session TBA) | Kalbir Sohi | Closing slot, abstract not yet posted. Default: leave after Ronacher unless the title surfaces something objective-aligned |
 
 ---
