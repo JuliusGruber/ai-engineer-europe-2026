@@ -82,6 +82,8 @@
 > 3. The Codex agent loop article shows prompt construction with 5 ordered layers and prefix stability for cache hits. How much of the merge rate improvement comes from the harness architecture vs. from prompt caching reducing cost enough to run more iterations?
 > 4. Doc-gardening agents for entropy management — what's the failure rate? Do they ever introduce drift themselves?
 > 5. Your team favored "boring, composable" dependencies well-represented in training data. How do you handle proprietary internal libraries that aren't in training data?
+>
+> **Symmetric backup:** **OpenClaw AMA — Steinberger + Gergely Orosz** runs in this same slot at Fleming. If your prepared questions feel answered by the morning Lopopolo keynote, swap to it: Steinberger is rank-10 in `speakers.md` and his only other Day 2 surface is the 20-min keynote at 10:10. (Gergely you'll still catch in the 4:30 panel either way.)
 
 #### Alternatives in this slot
 
@@ -174,7 +176,7 @@
 | **Track** | Evals & Observability |
 | **Status** | **SUGGESTED** |
 
-> **Why:** Maps to your objective: "How do I know if changes to my harness or context setup are actually making things better, or if I'm just chasing vibes?" The ETH Zurich AGENTbench study showed that the gap between recommendations and measured outcomes is real. The Meta-Harness paper demonstrated a 6x performance gap from harness changes alone. You need a framework for measuring merge rate, token cost, and review cycles — not building eval pipelines for products you ship. Listen for: does this cover coding agent benchmarks specifically, or is it general agent eval?
+> **Why:** Maps to your objective: "How do I know if changes to my harness or context setup are actually making things better, or if I'm just chasing vibes?" The ETH Zurich AGENTbench study showed that the gap between recommendations and measured outcomes is real. The Meta-Harness paper demonstrated a 6x performance gap from harness changes alone. You need a framework for measuring merge rate, token cost, and review cycles — not building eval pipelines for products you ship. The public abstract pitches "agentic AI" generically, but Chen's Snorkel work is heavily coding-agent specific: **Snorkel Agentic Coding Benchmark** (100 multi-step tasks), **SlopCodeBench** (measuring code erosion as agents iterate), and *"Coding Agents Don't Need to Be Perfect, They Need to Recover"* — bring those to Q&A if he doesn't surface them on stage.
 
 #### Alternatives in this slot
 
@@ -218,10 +220,11 @@
 
 | | |
 |---|---|
+| **Speaker** | Safe Intelligence (speaker name TBA) |
 | **Type** | Expo Session |
 | **Status** | **CHOSEN** |
 
-> **Why:** Directly about making Codex and Claude Code productive by capturing architectural decisions. Maps to Lopopolo's `docs/` structure (design-docs, exec-plans) and Fowler's "guides as feedforward." The title suggests practical patterns for decision artifacts that serve both human and agent consumption.
+> **Why:** Directly about making Codex and Claude Code productive by capturing architectural decisions. Abstract names machine-readable specs, ADRs, and closed testing loops, with "real examples from the techniques we use to ship production products at Safe Intelligence." Maps to Lopopolo's `docs/` structure (design-docs, exec-plans) and Fowler's "guides as feedforward."
 
 ---
 
@@ -240,6 +243,8 @@
 | **Status** | **SUGGESTED** |
 
 > **Why:** By 2:30 you'll have had two Lopopolo touchpoints already (keynote + AMA), so a third harness deep-dive would be marginal. Ara is the practical-measurement angle you actually need. Her published *A Practical Guide to Hill Climbing* documents Cline going from 47% → 57% on Terminal Bench through eval iteration — exactly the "results on real code" + "measure my harness changes" combination your objectives demand. Pair with her *3 Seductive Traps in Agent Building* and *AI Evals Are Broken* (non-static datasets, atomicity, model-specific tuning). Listen for: what does her hill-climbing loop look like concretely, and how do you parse agent task traces to build evals that actually move the number?
+>
+> **Lower opportunity cost than it looks:** Ara also speaks on **Day 3 (April 10, 3:10pm Abbey)** — *Don't Build Slop (4 Levels of AI Agent Maturity)*. So even if you swap her out here, you still catch her once.
 
 #### Alternatives in this slot
 
@@ -247,6 +252,7 @@
 |---|---|---|---|---|
 | Westminster | Harnesses in AI: A Deep Dive | Tejas Kumar | Harness Engineering | Third harness session of the day after Lopopolo keynote + AMA — likely confirmation of Fowler/OpenAI/Anthropic convergence rather than new patterns |
 | St. James | Connecting the Dots with Context Graphs | Stephen Chin | Context Engineering | Graph-structured context — different paradigm from file-based. Worth it if you want to explore beyond filesystem-as-context |
+| Fleming | Scaling Agents on Kubernetes with acpx and ACP | Onur Solmaz | Claws & Personal Agents | OpenClaw maintainer on running dozens of coding agents in parallel on K8s. Introduces **ACP (Agent Client Protocol)** as harness-interoperability layer across Claude Code, Codex, and others — replaces brittle PTY scraping with structured protocol comms. The only Day 2 talk on multi-agent orchestration + harness portability. Lower priority than Ara for measurement objective, but the closest the schedule gets to "what if my harness wasn't tied to one CLI?" |
 
 ---
 
@@ -317,7 +323,7 @@
 | Room | Talk | Speaker | Relevance |
 |---|---|---|---|
 | Abbey | RAG is Dead, Right?? | (TBA) | The only Day 2 session specifically about context retrieval *for coding agents*. Defines RAG and agentic search "in the specific context of code retrieval," walks through real-world patterns from modern coding assistants to show when embeddings, structured/lexical search, and hybrid retrieval each win. Strong on the "stop guessing what context to give agents" question — flip here if you feel saturated on agents.md/skills after the morning |
-| Shelley | How Agent O11y Differs from Traditional O11y | Phil Hetzel | Agent observability as the infrastructure for measuring harness health. Connects to Anthropic's insight about needing rich execution traces and the Meta-Harness paper's credit-assignment finding. Solid content, but third Hetzel touchpoint of the day → diminishing returns |
+| Shelley | How Agent O11y Differs from Traditional O11y | Phil Hetzel | Agent observability as the infrastructure for measuring harness health. Connects to Anthropic's insight about needing rich execution traces and the Meta-Harness paper's credit-assignment finding. Solid content, but second Hetzel touchpoint of the day (after the 1:05 expo you've already chosen) → diminishing returns |
 | Wordsworth | Why Rust is the Ideal Language for Vibe-Coding | Daniel Szoke (Sentry) | Maps to Fowler's *harnessability* thesis — strong typing and clearly definable module boundaries are what make mechanical verification (and therefore effective harnesses) possible. Previews Matt Pocock's 5:20pm keynote |
 
 ---
