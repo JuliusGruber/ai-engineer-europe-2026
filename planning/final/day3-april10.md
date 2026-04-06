@@ -40,6 +40,13 @@
 
 > **Why attend:** "A deliberately simple coding agent built on a small set of powerful primitives." Counter-narrative to complexity — Mario's published work includes the MCP-vs-CLI benchmark (hard cost/speed numbers showing CLI often wins) and "What if you don't need MCP at all?". This is the Vercel "we removed 80% of tools" thesis applied to harness design from first principles. Pair with Soria Parra's MCP keynote 50 minutes earlier — together they bracket the entire "how much protocol do I actually need" question.
 
+#### Other keynote-stage sessions in this block (SKIP)
+
+| Time | Session | Speaker | Why skip |
+|---|---|---|---|
+| 9:00 - 9:20am | Gemma, DeepMind's Family of Open Models | Omar Sanseviero | Open-models / Sovereign AI focus — off-objective. Use the time for coffee and to settle in |
+| 10:00 - 10:10am | AgentCraft: Putting the Orc in Agent Orchestration | Ido Salomon | 10-min slot. Salomon is the MCP-UI / GitMCP author (8/10 in speakers.md), but the talk is about RTS-style agent orchestration — interesting but not on the harness path. Stay seated since Zechner is up next |
+
 ---
 
 ## Expo Session (10:50 - 11:08am)
@@ -61,7 +68,8 @@
 
 | Room | Talk | Speaker | Relevance |
 |---|---|---|---|
-| Wordsworth | (TBA expo) | — | Check on the day if Allam moves |
+| Shelley | Spec-Driven Testing for Agents With A Brain the Size of A Planet | — | Specs/red-team/gold-team/fuzzing for agents. Adjacent to objectives — relevant only if you treat skill/agent test specs as a measurement layer |
+| Wordsworth | How to talk to statues | — | ElevenLabs voice-AI demo (museum/CV/voice). Off-objective — skip |
 
 ---
 
@@ -89,6 +97,7 @@
 |---|---|---|---|---|
 | Westminster | **Context Is the New Code** | Patrick Debois (Tessl) | AI Architects | **Strongest alternative.** 10/10 speaker. Context Development Lifecycle, CI/CD for context, eval gates, error budgets, self-tuning context. The operational/governance view of context as managed infrastructure — an angle no other speaker covers. The closest match to "context is more important than any individual context artifact." |
 | St. James | Every API Is a Tool for Agents | Matt Carey (Cloudflare) | MCP | "Code Mode": give agents an entire API in 1,000 tokens. Relevant if you're designing MCP tools at scale — but you got the production version of this from Hablich at 11:40am and from Pedro Rodrigues on Day 2 |
+| Abbey | One Login to Rule Them All: Cross-App Access for MCP | Garrett Galow (WorkOS) | GPUs & LLM Infra | MCP enterprise auth — XAA, Pipes MCP, session-scoped authorization for agents. 8/10 speaker. Niche fit: only relevant if you're going to operate MCP servers across organisations or care about agent auth boundaries |
 
 ---
 
@@ -135,7 +144,8 @@
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
-| Westminster | (TBA AI Architects slot) | — | AI Architects | Check on the day |
+| Westminster | Most Enterprise Agentic Projects Are Doomed — Here's Why | Jess Grogan-Avignon, Jack Wang | AI Architects | Field stories from agentic delivery in traditional large enterprise. Off-objective for your harness work — skip |
+| St. James | MCP UI | Liad Yosef, Ido Salomon | MCP | UI components for MCP apps. Adjacent — only relevant if you build MCP-facing UIs |
 
 ---
 
@@ -165,7 +175,9 @@
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
-| Westminster | (TBA AI Architects slot) | — | AI Architects | Check on the day |
+| Abbey | **The Missing Primitive for Agent Swarms** | Chris Weichel (Ona) | GPUs & LLM Infra | **Strongest missed alternative of the slot.** Argues parallel agents need a platform primitive (identity, isolation, lifecycle, coordination) instead of being treated as application-level concerns — picks up directly on Lopopolo's Day 2 "corrections cheap, waiting expensive" thread and the same 25-parallel-agent pattern Lawrence Jones is presenting in this exact slot. Pick Weichel only if you've decided you'd rather hear the platform argument than the production case study; otherwise stay with Jones |
+| Westminster | The Domain-Native AI Organization | Chris Lovejoy | AI Architects | Frameworks for embedding domain expertise (Oracle / Evaluator / Architect models). Off-objective for harness work — skip |
+| St. James | Why MCP and ChatGPT Apps Use Double Iframes | Frédéric Barthelet | MCP | Sandboxing architecture / security policy deep dive. Niche — only relevant if you're shipping MCP-app UIs |
 
 ---
 
@@ -289,7 +301,9 @@
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
-| Fleming | (TBA Coding Agents slot) | — | Coding Agents | Check on the day |
+| St. James | **Bringing MCPs to the Enterprise** | Karan Sampath (Anthropic) | MCP | **Strongest alternative.** Anthropic FDE on solving MCP security, observability, and access-control at enterprise scale. Companion to Hablich's morning Chrome DevTools MCP talk and to Sam Morrow at 2:30pm — together they form the production-MCP arc of Day 3. 8/10 speaker. Pick only if you've decided MCP is the load-bearing layer of your harness |
+| Fleming | Cooking with Agents in VS Code | Liam Hampton (Microsoft) | Coding Agents | Local / remote / worktree-based agent paths inside VS Code, demo-driven. Lightweight — fine if Westminster feels like one too many "agents at scale" beats |
+| Abbey | Don't Build Slop (4 Levels of AI Agent Maturity) | Ara Khan (Cline) | GPUs & LLM Infra | You're already seeing Ara Khan on Day 2 (2:30pm Westminster, *Evals Are Broken*). This is a different topic — abstract is more about inference routing / cost napkin-math than the title suggests. Skip the speaker overlap |
 
 ---
 
@@ -305,6 +319,13 @@
 | **Status** | **SUGGESTED** |
 
 > **Why:** Claude Code plugin for semantic codebase search benchmarked against regex/glob/grep, with answer-quality and token-consumption numbers. If Claude Code is your daily driver, this directly affects the Guides layer of your harness. **Suggested rather than chosen** because the result depends on whether the benchmark was run on a real codebase with history and tech debt, or a clean demo — listen for the dataset before deciding it's actionable.
+
+#### Alternatives in this slot
+
+| Room | Talk | Speaker | Relevance |
+|---|---|---|---|
+| Wesley | **AMA: AI Engineer Europe with swyx** | swyx | Closing-context conference recap from the conference founder. Strong substitute if the semantic-retrieval benchmark turns out to be on demo data, or if you want a wide-angle synthesis before the closing keynotes |
+| Shelley | Build an Aura Agent in 10 Minutes | — | Knowledge graphs over unstructured data. Off-objective — skip |
 
 ---
 
@@ -330,13 +351,21 @@
 
 > **Why attend:** Closing intellectual frame for the entire conference. Armin (Flask, Rye, uv, Sentry) is rated 10/10 in your speaker research — read everything from "We Can Just Measure Things" to "The Final Bottleneck" to "Some Things Just Take Time" and you'll see this talk coming. The thesis: the friction you feel reviewing agent output IS your engineering judgment — don't optimize it away. This is Hashimoto's negative space, Fowler's "human role" in harness engineering, and Pocock's Day 2 "It Ain't Broke" keynote rolled into one closing argument. The emotional and intellectual exit from three days of "agents do more, humans do less" — recalibrating which parts of "less" actually matter.
 
+#### Other keynote-stage sessions in this block (SKIP / decompress)
+
+| Time | Session | Speaker | Why skip |
+|---|---|---|---|
+| 5:00 - 5:20pm | Agents need more than a chat | Jacob Lauritzen | Sits between the Gergely fireside and Ronacher. No published material aligned to objectives — use as a 20-min decompress before the closing keynote, or stay seated if Lauritzen surfaces something concrete on agent UX |
+| 5:40 - 6:00pm | (session TBA) | Kalbir Sohi | Closing slot, abstract not yet posted. Default: leave after Ronacher unless the title surfaces something objective-aligned |
+
 ---
 
 ## Summary: Your Day 3 Path
 
 | Time | Room | Session | Status |
 |---|---|---|---|
-| 9:00-10:30am | Keynote | Soria Parra (MCP) · Gostev (failure modes) · Zechner (pi) | **CHOSEN** |
+| 9:00-9:20am | Keynote | Sanseviero (Gemma open models) | SKIP — off-objective |
+| 9:20-10:30am | Keynote | Soria Parra (MCP) · Gostev (failure modes) · Zechner (pi) | **CHOSEN** (Salomon AgentCraft 10:00 also off-objective) |
 | 10:50-11:08am | Wesley | Two Roads to Durable Agents (Eric Allam) | **CHOSEN** |
 | 11:15-11:40am | Fleming | Replacing 12K LoC with a 200 LoC Skill (David Gomes) | **CHOSEN** |
 | 11:40am-12:00pm | St. James | Chrome DevTools MCP Lessons (Michael Hablich) | **CHOSEN** |
@@ -350,7 +379,9 @@
 | 3:10-3:30pm | Westminster | Agents Don't Do Standups (Mike Spitz) | **CHOSEN** |
 | 4:05-4:23pm | Wordsworth | Benchmarking semantic code retrieval on Claude Code | Suggested |
 | 4:30-4:50pm | Keynote | Fireside: Gergely Orosz + Tuomas Artman (Linear) | **CHOSEN** |
+| 5:00-5:20pm | Keynote | Agents need more than a chat (Jacob Lauritzen) | SKIP / decompress |
 | 5:20-5:40pm | Keynote | The Friction Is Your Judgment (Armin Ronacher) | **CHOSEN** |
+| 5:40-6:00pm | Keynote | (TBA — Kalbir Sohi) | SKIP unless abstract surfaces |
 
 ### Hardest trade-offs of the day
 
