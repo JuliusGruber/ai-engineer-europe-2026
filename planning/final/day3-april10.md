@@ -67,7 +67,7 @@
 
 ## Expo Session (10:30 - 10:48am)
 
-### SUGGESTED add-on: 10:30 - 10:48am | Wesley
+### CHOSEN: 10:30 - 10:48am | Wesley
 
 **Building AI Systems That Ship**
 
@@ -75,7 +75,7 @@
 |---|---|
 | **Speaker** | (no speaker listed in aie — abstract names *Case* and the *WorkOS CLI*; could be Nisi, Proser, or another Case/WorkOS team member) |
 | **Type** | Expo Session |
-| **Status** | **SUGGESTED add-on** (not a swap — flows directly into Allam at 10:50 in the same room) |
+| **Status** | **CHOSEN** (flows directly into Allam at 10:50 in the same room) |
 
 > **Why:** Case is Nick Nisi's published harness work (10/10 in speakers.md, *Case Statement: Building a Harness — 6-agent deterministic pipeline*). Abstract: *"agent-ready means a codebase agents can safely change, and a product agents can reliably use… clear constraints, machine-friendly interfaces, and feedback loops that compound over time."* Direct hit on the harness-engineering objective and the cheapest addition on Day 3 — Zechner ends at 10:30, this starts at 10:30 in Wesley, ends at 10:48, and Allam starts at 10:50 in the same room. Walk straight from the Keynote Stage to Wesley after Zechner and stay there for the next 38 minutes.
 >
@@ -260,7 +260,18 @@
 
 **Stop babysitting your agents: building a context engine for mergeable code** (Brandon Walsenuk)
 
-> **Why skip:** You already attended this on Day 2 (10:30am Wordsworth, marked CHOSEN). The Day 3 slot is a repeat of the same expo session. Use the time for the Sentry talk or actual lunch.
+> **Why skip:** You already attended this on Day 2 (10:30am Wordsworth, marked CHOSEN). The Day 3 slot is a repeat of the same expo session. Use the time for Task Fidelity Scaling Laws in Shelley instead.
+
+#### CHOSEN: 1:25 - 1:43pm | Shelley
+
+**Task Fidelity Scaling Laws**
+
+| | |
+|---|---|
+| **Type** | Expo Session |
+| **Status** | **CHOSEN** (paired with Comprehend First, back-to-back in Shelley — sandwich lunch) |
+
+> **Why:** TerminalBench experiments showing fine-tuning on a small set of well-posed, non-trivial tasks dramatically outperforms training on more low-fidelity tasks with the same model and compute. *"Task fidelity behaves like a scaling law. Before increasing model size or RL budget, fix your tasks."* This is the "task spec quality dominates everything" thesis — directly applicable to how you write skills and AGENTS.md instructions. Pairs back-to-back with Comprehend First in the same room (Shelley) — the training-side data point complements the comprehension-side data point.
 
 #### CHOSEN: 1:45 - 2:03pm | Shelley
 
@@ -275,11 +286,10 @@
 
 > **Why:** 239 real engineering messages analyzed showing comprehension — not generation — is the dominant AI use in large codebases. This is Hashimoto's "negative space" thesis with hard data: knowing what agents are *bad* at and avoiding those tasks produces outsized efficiency gains. Pairs with Peter Gostev's morning keynote (where models fail) and Armin Ronacher's closing keynote (the friction is your judgment). Sentry runs a production codebase at scale, so the data isn't from a clean demo.
 
-#### Alternatives in this slot (and the prior 1:25pm block)
+#### Alternatives in this slot
 
 | Room | Talk | Speaker | Relevance |
 |---|---|---|---|
-| Shelley (1:25-1:43pm) | **Task Fidelity Scaling Laws** | — | **Strongest alternative.** TerminalBench experiments showing fine-tuning on a small set of well-posed, non-trivial tasks dramatically outperforms training on more low-fidelity tasks with the same model and compute. *"Task fidelity behaves like a scaling law. Before increasing model size or RL budget, fix your tasks."* This is the "task spec quality dominates everything" thesis — directly applicable to how you write skills and AGENTS.md instructions. Pick this over Comprehend First if you'd rather hear the training-side data than the comprehension-side data |
 | Wordsworth (2:05-2:23pm) | Malleable Evals: Why Are We Still Evaluating Adaptive Systems with Static Tests? | — | Adjacent to your measurement objective. Skip — you'll want to be moving toward Burtenshaw at 2:30, but worth knowing it exists if Comprehend First runs short |
 
 ---
@@ -367,24 +377,23 @@
 
 ## Expo Session (4:05 - 4:23pm)
 
-### SUGGESTED: 4:05 - 4:23pm | Wordsworth
+### CHOSEN: 4:05 - 4:23pm | Wesley
 
-**Benchmarking semantic code retrieval on Claude Code**
+**AMA: AI Engineer Europe with swyx**
 
 | | |
 |---|---|
+| **Speaker** | swyx |
 | **Type** | Expo Session |
-| **Status** | **SUGGESTED** |
+| **Status** | **CHOSEN** |
 
-> **Why:** Claude Code plugin for semantic codebase search benchmarked against regex/glob/grep, with answer-quality and token-consumption numbers. If Claude Code is your daily driver, this directly affects the Guides layer of your harness. **Suggested rather than chosen** because the result depends on whether the benchmark was run on a real codebase with history and tech debt, or a clean demo — listen for the dataset before deciding it's actionable.
->
-> **Demo-data flag in the abstract itself:** The published `aie` abstract literally says "across **a small set of representative tasks**." That's the strongest possible "small-N benchmark on synthetic tasks" signal short of admitting it. Downgrade in practice — this is closer to a "skip unless the swyx AMA in Wesley turns out to be off" call. Only worth showing up for if you specifically want the live demo of how the plugin slots into Claude Code.
+> **Why:** Closing-context conference recap from the conference founder. Wide-angle synthesis before the closing keynotes — exactly the right context-load before Gergely + Ronacher. Picked over the semantic-retrieval benchmark because that talk has a demo-data flag in the abstract itself ("across a small set of representative tasks") — strongest possible small-N synthetic-task signal short of admitting it. The swyx AMA also gives you a chance to ask the founder a direct question during a low-pressure expo slot.
 
 #### Alternatives in this slot (and the prior 3:45pm block)
 
 | Room | Talk | Speaker | Relevance |
 |---|---|---|---|
-| Wesley | **AMA: AI Engineer Europe with swyx** | swyx | Closing-context conference recap from the conference founder. Strong substitute if the semantic-retrieval benchmark turns out to be on demo data, or if you want a wide-angle synthesis before the closing keynotes |
+| Wordsworth | Benchmarking semantic code retrieval on Claude Code | — | Claude Code plugin for semantic codebase search benchmarked against regex/glob/grep. **Demo-data flag in the abstract:** literally says "across a small set of representative tasks." Skip — only worth showing up for the live demo of how the plugin slots into Claude Code |
 | Wordsworth (3:45-4:03pm) | Stop Making Models Bigger. Make Them Behave | — | A 4B model fine-tuned via rLLM to beat a 235B model on real financial analysis tasks by enforcing tool discipline (schema exploration, output validation, retry instead of hallucinating). Strongest "behavior > size" data point on Day 3, paired with Gostev's morning keynote on where models fail. Likely a skip — you'll want to decompress before Gergely — but worth knowing it exists |
 | Shelley (3:45-4:03pm) | Live Demo & Q&A with Zed | — | Sponsor demo, no abstract. Zed is one of the few editors with a real Claude-Code-style agent integration story — could be on-objective if they show their harness work, but sponsor-format risk is high. Skip by default |
 | Shelley | Build an Aura Agent in 10 Minutes | — | Knowledge graphs over unstructured data. Off-objective — skip |
@@ -428,19 +437,19 @@
 |---|---|---|---|
 | 9:00-9:20am | Keynote | Sanseviero (Gemma open models) | SKIP — off-objective |
 | 9:20-10:30am | Keynote | Soria Parra (MCP) · Gostev (failure modes) · Zechner (pi) | **CHOSEN** (Salomon AgentCraft 10:00 also off-objective) |
-| 10:30-10:48am | Wesley | Building AI Systems That Ship (likely Nick Nisi / Case harness) | **SUGGESTED add-on** (flows into Allam) |
+| 10:30-10:48am | Wesley | Building AI Systems That Ship (likely Nick Nisi / Case harness) | **CHOSEN** (flows into Allam) |
 | 10:50-11:08am | Wesley | Two Roads to Durable Agents (Eric Allam) | **CHOSEN** |
 | 11:15-11:40am | Westminster | Context Is the New Code (Patrick Debois, Tessl) | **CHOSEN** |
 | 11:40am-12:00pm | St. James | Chrome DevTools MCP Lessons (Michael Hablich) | **CHOSEN** |
 | 12:00-12:20pm | Fleming | The Year of Latency Debt (Sarah Chieng) | **CHOSEN** |
 | 12:20-12:40pm | Fleming | Fighting AI with AI (Lawrence Jones) | **CHOSEN** |
 | 12:40-1:00pm | Fleming | Factory Missions (Grinberg, Alvoeiro) | **CHOSEN** |
-| 1:25-1:43pm | Wesley | Stop babysitting your agents (repeat) | SKIP — seen Day 2 |
+| 1:25-1:43pm | Shelley | Task Fidelity Scaling Laws | **CHOSEN** |
 | 1:45-2:03pm | Shelley | Comprehend First, Code Later (Sentry) | **CHOSEN** |
 | 2:30-2:50pm | Fleming | Your Coding Agent Should Do AI System Engineering (Burtenshaw, HF) | **CHOSEN** |
 | 2:50-3:10pm | Westminster | How Building with AI Can Double Throughput (Brian Scanlan, Intercom) | **CHOSEN** |
 | 3:10-3:30pm | Westminster | Agents Don't Do Standups (Mike Spitz) | **CHOSEN** |
-| 4:05-4:23pm | Wordsworth | Benchmarking semantic code retrieval on Claude Code | Suggested |
+| 4:05-4:23pm | Wesley | AMA: AI Engineer Europe with swyx | **CHOSEN** |
 | 4:30-4:50pm | Keynote | Fireside: Gergely Orosz + Tuomas Artman (Linear) | **CHOSEN** |
 | 5:00-5:20pm | Keynote | Agents need more than a chat (Jacob Lauritzen) | SKIP / decompress |
 | 5:20-5:40pm | Keynote | The Friction Is Your Judgment (Armin Ronacher) | **CHOSEN** |
