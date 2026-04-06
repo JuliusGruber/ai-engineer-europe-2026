@@ -201,6 +201,17 @@
 
 > **Why:** Complements the benchmarking talk. Maps to measuring improvement. Phil also speaks about eval platforms in the morning slot — this is the practical how-to version.
 
+#### CHOSEN: 1:25 - 1:43pm | Wesley
+
+**Untethered Productivity**
+
+| | |
+|---|---|
+| **Type** | Expo Session |
+| **Status** | **CHOSEN** |
+
+> **Why:** The single most on-objective expo session of the day for the "daily workflow with coding agents" goal. The speaker rebuilt their workflow around voice-dictating briefs at 179 WPM, dispatching agents to isolated git worktrees, walking away from the laptop, and reviewing diffs through a hardened CI pipeline that catches agent mistakes before merge. This is the personal-workflow version of what Joshua Snyder describes at the systems level later in the day. Maps directly to: "What does the full daily workflow look like — from a vague requirement to merged code." Spotify Honk-flavored (worktrees + hardened CI as the verification gate) and the operational expression of Hashimoto's "always have an agent running."
+
 #### 1:45 - 2:03pm | Shelley
 
 **BDD, ADR, PRD, WTF: Capturing Decisions for Humans and AI Alike**
@@ -299,6 +310,13 @@
 
 > **Why:** You want to measure whether your harness is working. Agent observability is the infrastructure for that. Connects to Anthropic's insight about needing rich execution traces (not summaries) and the Meta-Harness paper's finding that the proposer needs raw traces to do credit assignment.
 
+#### Alternatives in this slot
+
+| Room | Talk | Speaker | Relevance |
+|---|---|---|---|
+| Wordsworth | Why Rust is the Ideal Language for Vibe-Coding | Daniel Szoke (Sentry) | Maps to Fowler's *harnessability* thesis — strong typing and clearly definable module boundaries are what make mechanical verification (and therefore effective harnesses) possible. Previews Matt Pocock's 5:20pm keynote. Less directly actionable than Hetzel but conceptually load-bearing |
+| Wesley | From Writing Code to Designing Systems: How the Developer Role Has Changed | (TBA) | Explicitly covers `agents.md`, GitHub Copilot CLI, structuring projects for agent-driven dev, and "how to ensure architectural consistency across dozens of moving parts." More practical than the title suggests — the developer-role-as-system-designer framing maps directly to your harness setup work |
+
 ---
 
 ## Afternoon Keynotes (Keynote Stage — all attend)
@@ -349,6 +367,7 @@
 | 12:20-12:40pm | Moore | Skill Issue (Marc Klingen) | Suggested |
 | 12:40-1:00pm | Moore | Benchmarking Agents (Vincent Chen) | Suggested |
 | 1:05-1:23pm | Wordsworth | Maturity Phases of Evals (Phil Hetzel) | Suggested |
+| 1:25-1:43pm | Wesley | Untethered Productivity | **CHOSEN** |
 | 1:45-2:03pm | Shelley | BDD, ADR, PRD, WTF | **CHOSEN** |
 | 2:30-2:50pm | Westminster | Harnesses in AI (Tejas Kumar) | Suggested |
 | 2:50-3:10pm | Moore | Self Driving Products (Joshua Snyder) | Suggested |
