@@ -5,7 +5,16 @@
 
 > **Day 3 thesis.** Days 1–2 built the foundations: harness/skills/context-engine workshops, the Lopopolo keynote + AMA, hierarchical memory, Skills+MCP, measurement, and the full daily workflow. Day 3 fills the remaining gaps — **long-running durability, latency-driven workflow shifts, production case studies at scale, agent-on-agent debugging, and the closing human-judgment frame.** Filter every alternative through: does it tell me something I haven't already heard from Werry, Walsenuk, Lopopolo, Klingen, Pedro Rodrigues, Snyder, or the Anthropic harness papers?
 >
-> **Abstract-risk inventory.** Four CHOSEN slots have a "TBA / TODO" abstract in `aie` and are picks-by-default with the risk acknowledged: **Soria Parra** (9:20 keynote), **Gomes** alternative at 11:15 (David Gomes is a 9/10 speaker but the abstract is literally "TODO"), **Factory Missions** (12:40 — speakers confirmed, content inferred from Factory's published docs), and the **Gergely + Artman fireside** (4:30 — abstract not posted). Treat the framing in those rows as published-research-derived, not promised-by-the-talk.
+> **Abstract-risk inventory (CHOSEN/SUGGESTED slots only).** Eight slots have a "TBA / TODO / no abstract" status in `aie` and are picks-by-default with the risk acknowledged. Treat the framing in those rows as published-research-derived, not promised-by-the-talk:
+>
+> 1. **Soria Parra** (9:20 keynote, CHOSEN) — `aie` description literally "Session title and abstract to be finalized"
+> 2. **Building AI Systems That Ship** (10:30 Wesley, SUGGESTED add-on) — no speaker listed in `aie`; content inferred from Case/WorkOS CLI references in the abstract
+> 3. **Gomes** (11:15 Fleming, alternative) — David Gomes is a 9/10 speaker but the abstract is literally "TODO"; "60x reduction" framing inferred from the title
+> 4. **Factory Missions** (12:40 Fleming, CHOSEN) — speakers confirmed (Grinberg + Alvoeiro), `aie` returns no description; content inferred from Factory's published docs
+> 5. **Benchmarking semantic code retrieval** (4:05 Wordsworth, SUGGESTED) — abstract exists but explicitly says "small set of representative tasks" — already downgraded in row
+> 6. **Gergely + Artman fireside** (4:30 keynote, CHOSEN) — `aie` returns title only, no description
+> 7. **Lauritzen — Agents need more than a chat** (5:00 keynote, SKIP/decompress) — `aie` returns title only; flagged in row as "stay seated if Lauritzen surfaces something concrete"
+> 8. **Kalbir Sohi** (5:40 keynote, SKIP unless surfaces) — `aie` returns "(TBA)"
 
 ---
 
@@ -155,6 +164,7 @@
 |---|---|---|---|---|
 | Fleming | A Piece of PI — Embedding the OpenClaw Coding Agent in Your Product | Matthias Luebken (TAVON.ai) | Coding Agents | Internals of a coding agent's composable primitives. Less directly applicable than Hablich unless you're embedding pi specifically |
 | Westminster | Rewiring the State | Eoin Mulgrew | AI Architects | UK No 10 government tech rebuild — call to arms for engineers to join. Off-objective for harness work — skip |
+| Abbey | Scaling Reinforcement Learning: Lessons from Trillion-Token Deployments at Fortune 500s | Jullien Launay | GPUs & LLM Infra | Fortune-500 RL post-training at scale. Off-objective for coding-agent harness work — skip |
 
 ---
 
@@ -230,7 +240,7 @@
 | **Track** | Coding Agents |
 | **Status** | **CHOSEN** |
 
-> **Why:** Extends the Anthropic long-running agents workshop you took on Day 1 into production patterns: initializer/coder split, git-as-state, milestone-based validation, TDD cycles, progress artifacts, autonomy ratio metrics. Factory ships this for a living and publishes architecture details. Directly answers "how should agent sessions handle real-world interruptions without losing progress?" and connects to Eric Allam's replay-vs-snapshot expo session two hours earlier (you'll be primed to hear which architecture they chose and why). Bonus: you stay in Fleming for four straight Coding Agents talks — minimal context-switching during the densest hour of the day.
+> **Why:** Extends the Anthropic long-running agents workshop you took on Day 1 into production patterns: initializer/coder split, git-as-state, milestone-based validation, TDD cycles, progress artifacts, autonomy ratio metrics. Factory ships this for a living and publishes architecture details. Directly answers "how should agent sessions handle real-world interruptions without losing progress?" and connects to Eric Allam's replay-vs-snapshot expo session two hours earlier (you'll be primed to hear which architecture they chose and why). Bonus: three Fleming Coding Agents talks back-to-back (Chieng → Jones → Factory Missions), then Burtenshaw after lunch in the same room — minimal context-switching during the densest hour of the day.
 >
 > **Caveat:** AIE abstract is not yet published — the architectural specifics above are inferred from Factory's published docs (SKILL.md system, DroidShield, milestone-based validation, autonomy ratio metrics) and speakers.md, not promised by the talk. Speakers are confirmed: Matan Grinberg (CEO @ Factory) and Luke Alvoeiro (Product/Tech Lead @ Factory).
 
@@ -294,7 +304,7 @@
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
-| St. James | **Lessons from Scaling GitHub's Remote MCP Server** | Sam Morrow (GitHub) | MCP | **Strongest alternative.** 9/10 speaker, MCP spec co-author. 4M+ downloads of the stdio server, the canonical large-scale MCP server case study. Pairs with Hablich (11:40 Chrome DevTools MCP) and Karan Sampath (3:10 Bringing MCPs to the Enterprise) as the **Day 3 production-MCP arc** in St. James. Taking Morrow naturally pulls Sampath at 3:10 over Spitz, giving you a coherent St. James → St. James → St. James MCP track from 11:40 onward. Skip only if you've already decided MCP is downstream of skills for your harness |
+| St. James | **Lessons from Scaling GitHub's Remote MCP Server** | Sam Morrow (GitHub) | MCP | **Strongest alternative.** 9/10 speaker, MCP spec co-author. 4M+ downloads of the stdio server, the canonical large-scale MCP server case study. Pairs with Hablich (11:40 Chrome DevTools MCP) and Karan Sampath (3:10 Bringing MCPs to the Enterprise) as the **Day 3 production-MCP arc** in St. James: Hablich (11:40) → Morrow (2:30) → Sampath (3:10), bracketing the lunch break and the three Fleming Coding Agents picks. Taking Morrow naturally pulls Sampath at 3:10 over Spitz. Skip only if you've already decided MCP is downstream of skills for your harness |
 | Westminster | Software Engineering Is Becoming Plan and Review | Louis Knight-Webb (Vibe Kanban) | AI Architects | Plan/review as the new engineering job. Directly answers "where do humans add the most value in the loop?" Strong alternative if you feel skills-saturated by this point in the conference. **Caveat:** Spitz at 3:10pm covers a strict superset of this ground (post-engineer org, what humans still do, planning/review surviving agile), so picking Knight-Webb here means partial overlap — strengthens the Burtenshaw default |
 
 ---
@@ -324,6 +334,7 @@
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
 | Fleming | Let's Talk About FOMAT — Fear of Missing Agent Time | Michael Richman | Coding Agents | Cmd+Ctrl: phone/watch control plane for Claude Code, Codex, Gemini CLI. Practical async-agent tooling that complements Day 2's Untethered Productivity and Allam's morning durability talk. Lighter demo talk — fine if you're flagging and Scanlan feels like another "agents at scale" beat after Burtenshaw |
+| St. James | Your Agent Is an Infinite Canvas | RL Nabors | MCP | Argues chat is the wrong UI primitive for agents (terminal-as-canvas analogy). Agent-UX angle, not harness — defensible skip. **Tactical use:** if you switched to Morrow at 2:30, this keeps you in St. James for the production-MCP arc into Sampath at 3:10 (Morrow → Nabors → Sampath, all-St. James fallback) |
 | Abbey | Beyond Code Coverage: Functionality Testing with Playwright | Marlene Mhangami (Microsoft) | GPUs & LLM Infra | LLM-generated unit tests pass code coverage but don't verify functionality — argues for Playwright + the new Playwright MCP server as the e2e check on agent-written code. Adjacent to "results on real code or it didn't happen" and your automated-feedback-loop objective. Skip unless your harness is missing a functional-test layer today |
 | Hallway | Decompress | — | — | If you're flagging, a 20-min reset before the closing keynotes is still legitimate. But Scanlan + Spitz is the strongest 40-min block of the afternoon — protect this and decompress between Spitz and Gergely instead |
 
@@ -439,7 +450,7 @@
 
 ### Hardest trade-offs of the day
 
-1. **11:15am — Patrick Debois (Tessl) vs. David Gomes (Cursor).** Both 10/10 speakers in non-overlapping content. Debois = the only Context Development Lifecycle / CI/CD-for-context talk on the schedule and the operational frame nobody else offers; closest match to your *measurement* objective. Gomes = would be the sharpest concrete skills proof point of the conference (60x reduction) *if the title delivers*. **Default: Debois** — three converging reasons: (1) Debois has a fully published abstract while Gomes's is "TODO" in `aie`, (2) by 11:15am Day 3 you're skills-saturated after Werry/Nisi/Klingen/Pedro Rodrigues/Walsenuk and Burtenshaw is still ahead at 2:30pm, (3) the only "vibes vs. measurement" talk on the schedule is the higher-marginal-value pick. **Switch to Gomes** only if you finish Days 1–2 still hungry for one more concrete skills proof point and you accept the "TODO" abstract risk.
+1. **11:15am — Patrick Debois (Tessl, 10/10) vs. David Gomes (Cursor, 9/10).** Both top-tier speakers in non-overlapping content. Debois = the only Context Development Lifecycle / CI/CD-for-context talk on the schedule and the operational frame nobody else offers; closest match to your *measurement* objective. Gomes = would be the sharpest concrete skills proof point of the conference (60x reduction) *if the title delivers*. **Default: Debois** — three converging reasons: (1) Debois has a fully published abstract while Gomes's is "TODO" in `aie`, (2) by 11:15am Day 3 you're skills-saturated after Werry/Nisi/Klingen/Pedro Rodrigues/Walsenuk and Burtenshaw is still ahead at 2:30pm, (3) the only "vibes vs. measurement" talk on the schedule is the higher-marginal-value pick. **Switch to Gomes** only if you finish Days 1–2 still hungry for one more concrete skills proof point and you accept the "TODO" abstract risk.
 
 2. **2:30pm — Burtenshaw (HF) vs. Sam Morrow (GitHub) vs. Knight-Webb (Vibe Kanban).** A genuine three-way. Burtenshaw = skills in the hardest technical domain (CUDA kernels, 1000+ daily ML experiments). Morrow = the canonical large-scale MCP server case study (4M+ stdio downloads), production extension of Hablich's morning Chrome DevTools MCP talk. Knight-Webb = "plan and review as the new engineering job." **Default: Burtenshaw** for the concrete skills-in-production data. **Switch to Morrow** if you've decided MCP is more load-bearing for your harness than skills and you want to double down on the Hablich thread.
 
