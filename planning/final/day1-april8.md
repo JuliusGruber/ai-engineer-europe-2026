@@ -48,3 +48,15 @@
 |---|---|
 | **Speaker** | Matt Pocock (alt: Raj Navakoti, IKEA Digital) |
 | **Type** | Workshop |
+
+---
+
+## Summary: Your Day 1 Path
+
+| Time | Room | Session | Status |
+|---|---|---|---|
+| 9:00-10:20am | St. James | How to Build Agents That Run for Hours (Prabaker, Wilson) | **CHOSEN** |
+| 10:40am-12:00pm | Abbey | Skills at Scale (Nisi, Proser) | **CHOSEN** |
+| 1:00-3:00pm | Wordsworth | Mergeable by default (Peter Werry) | **CHOSEN** |
+| 3:30-5:30pm | St. James | AI Coding For Real Engineers (Matt Pocock) | **CHOSEN** |
+| 3:30-5:30pm | Shelley | Build Your First Demand-Driven Context Base (Raj Navakoti) | Alternative |
