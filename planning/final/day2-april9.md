@@ -300,24 +300,25 @@
 
 ## Expo Sessions (3:45 - 4:23pm)
 
-### SUGGESTED: 3:45 - 4:03pm | Abbey
+### CHOSEN: 3:45 - 4:03pm | Wesley
 
-**RAG is Dead, Right??**
+**From Writing Code to Designing Systems: How the Developer Role Has Changed**
 
 | | |
 |---|---|
+| **Speaker** | (TBA) |
 | **Type** | Expo Session |
-| **Status** | **SUGGESTED** |
+| **Status** | **CHOSEN** |
 
-> **Why:** The only Day 2 session that's specifically about context retrieval *for coding agents*. The abstract defines RAG and agentic search "in the specific context of code retrieval," then walks through real-world patterns from modern coding assistants to show when embeddings, structured/lexical search, and hybrid retrieval each win. Maps directly to "how do I stop guessing what context to give agents and let them tell me what's missing." Also avoids stacking a third Phil Hetzel exposure on top of his 11:15 keynote and 1:05 expo session — by 3:45 you'll have heard the eval-platform thesis from him twice already.
+> **Why:** The most directly actionable expo session of the afternoon for your harness setup work. Abstract explicitly covers `agents.md`, GitHub Copilot CLI, custom Copilot agents, *"decompose large problems, delegate implementation to specialized AI agents, encode standards, constraints, and intent directly into the workflow"* and *"how to ensure architectural consistency across dozens of moving parts"* — i.e. the day-to-day discipline you're trying to build. The developer-role-as-system-designer framing maps onto Lopopolo's Types→Config→Repo→Service→Runtime layering and Fowler's "guides as feedforward." Pairs naturally with the morning Walsenuk + Marc Klingen + Pedro Rodrigues stack: Walsenuk gave you the *why*, Klingen and Rodrigues gave you skills + MCP mechanics, this gives you the org-level structuring of agent work across a real project. Speaker is officially TBA, which is the only mark against it.
 
 #### Alternatives in this slot
 
 | Room | Talk | Speaker | Relevance |
 |---|---|---|---|
+| Abbey | RAG is Dead, Right?? | (TBA) | The only Day 2 session specifically about context retrieval *for coding agents*. Defines RAG and agentic search "in the specific context of code retrieval," walks through real-world patterns from modern coding assistants to show when embeddings, structured/lexical search, and hybrid retrieval each win. Strong on the "stop guessing what context to give agents" question — flip here if you feel saturated on agents.md/skills after the morning |
 | Shelley | How Agent O11y Differs from Traditional O11y | Phil Hetzel | Agent observability as the infrastructure for measuring harness health. Connects to Anthropic's insight about needing rich execution traces and the Meta-Harness paper's credit-assignment finding. Solid content, but third Hetzel touchpoint of the day → diminishing returns |
 | Wordsworth | Why Rust is the Ideal Language for Vibe-Coding | Daniel Szoke (Sentry) | Maps to Fowler's *harnessability* thesis — strong typing and clearly definable module boundaries are what make mechanical verification (and therefore effective harnesses) possible. Previews Matt Pocock's 5:20pm keynote |
-| Wesley | From Writing Code to Designing Systems: How the Developer Role Has Changed | (TBA) | Explicitly covers `agents.md`, GitHub Copilot CLI, structuring projects for agent-driven dev, and "how to ensure architectural consistency across dozens of moving parts." More practical than the title suggests — the developer-role-as-system-designer framing maps directly to your harness setup work |
 
 ---
 
@@ -374,7 +375,7 @@
 | 2:30-2:50pm | Moore | Evals Are Broken, Use Them Anyway (Ara Khan) | Suggested |
 | 2:50-3:10pm | Moore | Self Driving Products (Joshua Snyder) | Suggested |
 | 3:10-3:30pm | St. James | Skills + MCP (Pedro Rodrigues) | Suggested |
-| 3:45-4:03pm | Abbey | RAG is Dead, Right?? | Suggested |
+| 3:45-4:03pm | Wesley | From Writing Code to Designing Systems | **CHOSEN** |
 | 4:30-6:00pm | Keynote | All afternoon keynotes | All attend |
 
 ### Hardest trade-offs of the day
