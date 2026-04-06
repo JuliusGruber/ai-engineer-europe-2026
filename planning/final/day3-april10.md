@@ -49,6 +49,31 @@
 
 ---
 
+## Expo Session (10:30 - 10:48am)
+
+### SUGGESTED add-on: 10:30 - 10:48am | Wesley
+
+**Building AI Systems That Ship**
+
+| | |
+|---|---|
+| **Speaker** | (no speaker listed in aie — abstract names "Case, a harness for orchestrating coding agents, and the WorkOS CLI") |
+| **Type** | Expo Session |
+| **Status** | **SUGGESTED add-on** (not a swap — flows directly into Allam at 10:50 in the same room) |
+
+> **Why:** Case is Nick Nisi's harness work (10/10 in speakers.md, *Case Statement: Building a Harness — 6-agent deterministic pipeline*). Abstract: *"agent-ready means a codebase agents can safely change, and a product agents can reliably use… clear constraints, machine-friendly interfaces, and feedback loops that compound over time."* Direct hit on the harness-engineering objective and the cheapest addition on Day 3 — Zechner ends at 10:30, this starts at 10:30 in Wesley, ends at 10:48, and Allam starts at 10:50 in the same room. Walk straight from the Keynote Stage to Wesley after Zechner and stay there for the next 38 minutes.
+>
+> **Caveat:** If Nisi covers the same Case material in the Day 1 Skills at Scale workshop you're already attending, this is a partial repeat. Listen for whether the abstract emphasis on "WorkOS CLI as a product agents can reliably use" is the new angle.
+
+#### Alternatives in this slot
+
+| Room | Talk | Speaker | Relevance |
+|---|---|---|---|
+| Wordsworth | Can LLMs generate Enterprise Quality Code? | — | Benchmark of 50+ LLMs on code-quality dimensions paired with deterministic static analysis. Marginal-but-on-objective for the "results on real code" filter. Skip if you're going to Wesley for Nisi |
+| Shelley | Does GenAI "belong" to data scientists? | Phil Hetzel | Org/ownership framing for GenAI work. Off-objective — skip |
+
+---
+
 ## Expo Session (10:50 - 11:08am)
 
 ### 10:50 - 11:08am | Wesley
@@ -228,6 +253,13 @@
 
 > **Why:** 239 real engineering messages analyzed showing comprehension — not generation — is the dominant AI use in large codebases. This is Hashimoto's "negative space" thesis with hard data: knowing what agents are *bad* at and avoiding those tasks produces outsized efficiency gains. Pairs with Peter Gostev's morning keynote (where models fail) and Armin Ronacher's closing keynote (the friction is your judgment). Sentry runs a production codebase at scale, so the data isn't from a clean demo.
 
+#### Alternatives in this slot (and the prior 1:25pm block)
+
+| Room | Talk | Speaker | Relevance |
+|---|---|---|---|
+| Shelley (1:25-1:43pm) | **Task Fidelity Scaling Laws** | — | **Strongest alternative.** TerminalBench experiments showing fine-tuning on a small set of well-posed, non-trivial tasks dramatically outperforms training on more low-fidelity tasks with the same model and compute. *"Task fidelity behaves like a scaling law. Before increasing model size or RL budget, fix your tasks."* This is the "task spec quality dominates everything" thesis — directly applicable to how you write skills and AGENTS.md instructions. Pick this over Comprehend First if you'd rather hear the training-side data than the comprehension-side data |
+| Wordsworth (2:05-2:23pm) | Malleable Evals: Why Are We Still Evaluating Adaptive Systems with Static Tests? | — | Adjacent to your measurement objective. Skip — you'll want to be moving toward Burtenshaw at 2:30, but worth knowing it exists if Comprehend First runs short |
+
 ---
 
 ## Track Sessions — Slot 6 (2:30 - 2:50pm)
@@ -320,11 +352,12 @@
 
 > **Why:** Claude Code plugin for semantic codebase search benchmarked against regex/glob/grep, with answer-quality and token-consumption numbers. If Claude Code is your daily driver, this directly affects the Guides layer of your harness. **Suggested rather than chosen** because the result depends on whether the benchmark was run on a real codebase with history and tech debt, or a clean demo — listen for the dataset before deciding it's actionable.
 
-#### Alternatives in this slot
+#### Alternatives in this slot (and the prior 3:45pm block)
 
 | Room | Talk | Speaker | Relevance |
 |---|---|---|---|
 | Wesley | **AMA: AI Engineer Europe with swyx** | swyx | Closing-context conference recap from the conference founder. Strong substitute if the semantic-retrieval benchmark turns out to be on demo data, or if you want a wide-angle synthesis before the closing keynotes |
+| Wordsworth (3:45-4:03pm) | Stop Making Models Bigger. Make Them Behave | — | A 4B model fine-tuned via rLLM to beat a 235B model on real financial analysis tasks by enforcing tool discipline (schema exploration, output validation, retry instead of hallucinating). Strongest "behavior > size" data point on Day 3, paired with Gostev's morning keynote on where models fail. Likely a skip — you'll want to decompress before Gergely — but worth knowing it exists |
 | Shelley | Build an Aura Agent in 10 Minutes | — | Knowledge graphs over unstructured data. Off-objective — skip |
 
 ---
@@ -366,6 +399,7 @@
 |---|---|---|---|
 | 9:00-9:20am | Keynote | Sanseviero (Gemma open models) | SKIP — off-objective |
 | 9:20-10:30am | Keynote | Soria Parra (MCP) · Gostev (failure modes) · Zechner (pi) | **CHOSEN** (Salomon AgentCraft 10:00 also off-objective) |
+| 10:30-10:48am | Wesley | Building AI Systems That Ship (likely Nick Nisi / Case harness) | **SUGGESTED add-on** (flows into Allam) |
 | 10:50-11:08am | Wesley | Two Roads to Durable Agents (Eric Allam) | **CHOSEN** |
 | 11:15-11:40am | Fleming | Replacing 12K LoC with a 200 LoC Skill (David Gomes) | **CHOSEN** |
 | 11:40am-12:00pm | St. James | Chrome DevTools MCP Lessons (Michael Hablich) | **CHOSEN** |
