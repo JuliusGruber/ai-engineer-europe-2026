@@ -117,24 +117,24 @@
 
 ## Track Sessions — Slot 3 (12:00 - 12:20pm)
 
-### SUGGESTED: 12:00 - 12:20pm | St. James
+### SUGGESTED: 12:00 - 12:20pm | Westminster
 
-**Hierarchical Memory: Context Management in Agents**
+**What the Best Agents Share (lightning) + Why (Senior) Engineers Struggle to Build AI Agents (lightning)**
 
 | | |
 |---|---|
-| **Speaker** | Sally-Ann Delucia |
-| **Type** | Talk |
-| **Track** | Context Engineering |
+| **Speakers** | Mardu Swanepoel + Philipp Schmid |
+| **Type** | Lightning talks (10 min each) |
+| **Track** | Harness Engineering |
 | **Status** | **SUGGESTED** |
 
-> **Why:** Directly maps to your objective: "How should agent memory and context be structured?" You've now seen multiple memory patterns — Manus's todo-list recitation against lost-in-the-middle, Anthropic's `claude-progress.txt` for cross-session handoff, LangChain's write/select/compress/isolate framework, the filesystem as externalized memory. Sally-Ann's "bottom-up composable" framing suggests a practical taxonomy. Listen for: does the hierarchy map onto your harness (what lives in skills, what lives in AGENTS.md, what lives in agent-managed files)?
+> **Why:** Two production-system talks in a single 20-minute slot, no room change. Swanepoel pulls four shared patterns — reversibility, transparency, agent modes, customisability — out of Harvey, Cursor, Manus, **and** OpenAI. Four named systems all shipping to real users is the "results on real code" filter at its sharpest. Schmid (Google DeepMind) has the most directly relevant published material on the schedule for your stack: AGENTS.md, agent harness 2026, inner-vs-outer loop, and the senior-engineer failure modes you keep running into. You've already absorbed memory hierarchies from Anthropic + Manus + LangChain reading, so the marginal value of one more memory-taxonomy talk is lower than two named-system pattern talks.
 
 #### Alternatives in this slot
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
-| Westminster | What the Best Agents Share (lightning) + Why (Senior) Engineers Struggle to Build AI Agents (lightning) | Mardu Swanepoel + Philipp Schmid | Harness Engineering | Two talks in 20 min. Swanepoel covers patterns across Harvey, Cursor, Manus, OpenAI. Schmid is AWS/HuggingFace. **Good if you want breadth over depth.** |
+| St. James | Hierarchical Memory: Context Management in Agents | Sally-Ann Delucia | Context Engineering | "Bottom-up composable" memory hierarchy with new findings from thousands of deployed agents — Unix-philosophy framing of memory as composable tools. Strong, but maps to ground you've already covered in your reading. |
 
 ---
 
@@ -300,22 +300,23 @@
 
 ## Expo Sessions (3:45 - 4:23pm)
 
-### SUGGESTED: 3:45 - 4:03pm | Shelley
+### SUGGESTED: 3:45 - 4:03pm | Abbey
 
-**How Agent O11y Differs from Traditional O11y**
+**RAG is Dead, Right??**
 
 | | |
 |---|---|
-| **Speaker** | Phil Hetzel |
 | **Type** | Expo Session |
+| **Status** | **SUGGESTED** |
 
-> **Why:** You want to measure whether your harness is working. Agent observability is the infrastructure for that. Connects to Anthropic's insight about needing rich execution traces (not summaries) and the Meta-Harness paper's finding that the proposer needs raw traces to do credit assignment.
+> **Why:** The only Day 2 session that's specifically about context retrieval *for coding agents*. The abstract defines RAG and agentic search "in the specific context of code retrieval," then walks through real-world patterns from modern coding assistants to show when embeddings, structured/lexical search, and hybrid retrieval each win. Maps directly to "how do I stop guessing what context to give agents and let them tell me what's missing." Also avoids stacking a third Phil Hetzel exposure on top of his 11:15 keynote and 1:05 expo session — by 3:45 you'll have heard the eval-platform thesis from him twice already.
 
 #### Alternatives in this slot
 
 | Room | Talk | Speaker | Relevance |
 |---|---|---|---|
-| Wordsworth | Why Rust is the Ideal Language for Vibe-Coding | Daniel Szoke (Sentry) | Maps to Fowler's *harnessability* thesis — strong typing and clearly definable module boundaries are what make mechanical verification (and therefore effective harnesses) possible. Previews Matt Pocock's 5:20pm keynote. Less directly actionable than Hetzel but conceptually load-bearing |
+| Shelley | How Agent O11y Differs from Traditional O11y | Phil Hetzel | Agent observability as the infrastructure for measuring harness health. Connects to Anthropic's insight about needing rich execution traces and the Meta-Harness paper's credit-assignment finding. Solid content, but third Hetzel touchpoint of the day → diminishing returns |
+| Wordsworth | Why Rust is the Ideal Language for Vibe-Coding | Daniel Szoke (Sentry) | Maps to Fowler's *harnessability* thesis — strong typing and clearly definable module boundaries are what make mechanical verification (and therefore effective harnesses) possible. Previews Matt Pocock's 5:20pm keynote |
 | Wesley | From Writing Code to Designing Systems: How the Developer Role Has Changed | (TBA) | Explicitly covers `agents.md`, GitHub Copilot CLI, structuring projects for agent-driven dev, and "how to ensure architectural consistency across dozens of moving parts." More practical than the title suggests — the developer-role-as-system-designer framing maps directly to your harness setup work |
 
 ---
@@ -364,7 +365,7 @@
 | 10:30-10:48am | Wordsworth | Stop Babysitting Your Agents | **CHOSEN** |
 | 11:15-11:40am | Westminster | Harness Engineering AMA (Lopopolo) | Suggested |
 | 11:40-12:00pm | Moore | LLM Codegen Fails (Danilo Campos) | Suggested |
-| 12:00-12:20pm | St. James | Hierarchical Memory (Sally-Ann Delucia) | Suggested |
+| 12:00-12:20pm | Westminster | Mardu Swanepoel + Philipp Schmid lightnings | Suggested |
 | 12:20-12:40pm | Moore | Skill Issue (Marc Klingen) | Suggested |
 | 12:40-1:00pm | Moore | Benchmarking Agents (Vincent Chen) | Suggested |
 | 1:05-1:23pm | Wordsworth | Maturity Phases of Evals (Phil Hetzel) | Suggested |
@@ -373,7 +374,7 @@
 | 2:30-2:50pm | Moore | Evals Are Broken, Use Them Anyway (Ara Khan) | Suggested |
 | 2:50-3:10pm | Moore | Self Driving Products (Joshua Snyder) | Suggested |
 | 3:10-3:30pm | St. James | Skills + MCP (Pedro Rodrigues) | Suggested |
-| 3:45-4:03pm | Shelley | Agent O11y (Phil Hetzel) | Suggested |
+| 3:45-4:03pm | Abbey | RAG is Dead, Right?? | Suggested |
 | 4:30-6:00pm | Keynote | All afternoon keynotes | All attend |
 
 ### Hardest trade-offs of the day
