@@ -19,7 +19,7 @@
 
 > **Why attend:** Vercel's own journey removing 80% of their agent's tools (d0 analytics agent) is one of the sharpest examples of "less tooling = more reliability." Malte will likely frame AI engineering as the successor discipline to web development. Listen for whether he talks about the prerequisite of a well-documented data layer — the Vercel blog showed that their tool removal only worked because the semantic layer was already legible.
 
-### 9:30 - 9:50am | Keynote (title TBA)
+### 9:30 - 9:50am | Frontier AI and the Future of Intelligence
 
 | | |
 |---|---|
@@ -65,16 +65,18 @@
 
 ## Track Sessions — Slot 1 (11:15 - 11:40am)
 
-### CHOSEN: 11:15 - 11:40am | Westminster — Harness Engineering AMA
+### CHOSEN: 11:15 - 11:40am | Westminster — OpenAI Symphony & Harness Engineering AMA
 
 | | |
 |---|---|
-| **Speaker** | Ryan Lopopolo |
-| **Role** | Member of Technical Staff @ OpenAI |
+| **Speakers** | Ryan Lopopolo, Vibhu Sapra |
+| **Role** | Members of Technical Staff @ OpenAI |
 | **Type** | Track Keynote |
 | **Track** | Harness Engineering |
 | **Status** | **CHOSEN** |
 | **Links** | [Twitter](https://x.com/_lopopolo) · [LinkedIn](https://www.linkedin.com/in/ryanlopopolo/) · [GitHub](https://github.com/lopopolo) |
+
+> **Scope update:** Per the aie-europe MCP data, the session is now titled **"OpenAI Symphony & Harness Engineering AMA"** and **Vibhu Sapra** joins Lopopolo. Expect content on Symphony (OpenAI's internal system) alongside the harness-engineering post.
 
 > **Prepared questions from reading:**
 > 1. The OpenAI post says AGENTS.md should be ~100 lines as a map. The ETH Zurich AGENTbench study found human-written context files help only ~4% and increase token cost by ~19%. How do you reconcile this — is the value in the file itself or in the progressive disclosure structure it points to?
@@ -82,6 +84,7 @@
 > 3. The Codex agent loop article shows prompt construction with 5 ordered layers and prefix stability for cache hits. How much of the merge rate improvement comes from the harness architecture vs. from prompt caching reducing cost enough to run more iterations?
 > 4. Doc-gardening agents for entropy management — what's the failure rate? Do they ever introduce drift themselves?
 > 5. Your team favored "boring, composable" dependencies well-represented in training data. How do you handle proprietary internal libraries that aren't in training data?
+> 6. **On Symphony:** How does Symphony relate to the harness patterns in the blog post — is it the reference implementation, or a different abstraction layer? What crosses over to teams without OpenAI's internal infrastructure?
 >
 > **Symmetric backup:** **OpenClaw AMA — Steinberger + Gergely Orosz** runs in this same slot at Fleming. If your prepared questions feel answered by the morning Lopopolo keynote, swap to it: Steinberger is rank-10 in `speakers.md` and his only other Day 2 surface is the 20-min keynote at 10:10. (Gergely you'll still catch in the 4:30 panel either way.)
 
@@ -89,7 +92,7 @@
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
-| St. James | (title TBA) | Maggie Appleton | Context Engineering | Could be excellent — Maggie is a strong thinker on information architecture |
+| St. James | One Developer, Two Dozen Agents, Zero Alignment: Why we Need Collaborative AI Engineering | Maggie Appleton | Context Engineering | Title now confirmed via MCP — directly addresses multi-agent coordination, a gap in your current thinking. Strong alternative if you feel saturated on Lopopolo content |
 | Moore | Why building eval platforms is hard | Phil Hetzel | Evals & Observability | Relevant to measuring improvement, but you'll see Hetzel in expo sessions too |
 
 ---
@@ -98,7 +101,7 @@
 
 ### CHOSEN: 11:40am - 12:00pm | St. James
 
-**(title TBA)**
+**Teaching Coding Agents to do Spreadsheets**
 
 | | |
 |---|---|
@@ -108,13 +111,13 @@
 | **Track** | Context Engineering |
 | **Status** | **CHOSEN** |
 
-> **Why:** Speaker bet on LangChain's depth on context architecture. The "Anatomy of an Agent Harness" post (Ralph Loop, filesystem as primitive, context rot countermeasures) is the hint at the substance. Title and abstract are TBA, so go in expecting to take notes on whatever framework he presents and map it back to your reading.
+> **Why:** Speaker bet on LangChain's depth on context architecture. The "Anatomy of an Agent Harness" post (Ralph Loop, filesystem as primitive, context rot countermeasures) is the hint at the substance. Title is now confirmed as *"Teaching Coding Agents to do Spreadsheets"* — a narrower applied framing than the harness-architecture deep dive originally anticipated. The LangChain insights on context management likely still apply (spreadsheets as structured data are a hard context problem), but **reconsider the trade-off with Danilo Campos** now that the abstract has resolved: if the spreadsheet framing doesn't carry over to coding agents on codebases, LLM Codegen Fails in Moore is the higher-signal fallback.
 
 #### Alternatives in this slot
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
-| Moore | LLM Codegen Fails and How to Stop 'Em | Danilo Campos | Evals & Observability | Score 9. Abstract: PostHog wizard at 5K users/month, isolated failure modes + mitigation playbook from hundreds of iterations. Direct hit on "what separates clean runs from spirals" — strong fallback if the Nuno keynote disappoints early |
+| Moore | LLM Codegen Fails and How to Stop 'Em | Danilo Campos | Evals & Observability | Score 9. Abstract: PostHog wizard at 5K users/month, isolated failure modes + mitigation playbook from hundreds of iterations. Direct hit on "what separates clean runs from spirals" — strong fallback if the Nuno keynote disappoints early, and **arguably the better pick now that Nuno's confirmed title is spreadsheets-applied rather than harness-architecture** |
 
 ---
 
@@ -324,9 +327,10 @@
 
 | Room | Talk | Speaker | Relevance |
 |---|---|---|---|
-| Abbey | RAG is Dead, Right?? | (TBA) | The only Day 2 session specifically about context retrieval *for coding agents*. Defines RAG and agentic search "in the specific context of code retrieval," walks through real-world patterns from modern coding assistants to show when embeddings, structured/lexical search, and hybrid retrieval each win. Strong on the "stop guessing what context to give agents" question — flip here if you feel saturated on agents.md/skills after the morning |
 | Shelley | How Agent O11y Differs from Traditional O11y | Phil Hetzel | Agent observability as the infrastructure for measuring harness health. Connects to Anthropic's insight about needing rich execution traces and the Meta-Harness paper's credit-assignment finding. Solid content, but second Hetzel touchpoint of the day (after the 1:05 expo you've already chosen) → diminishing returns |
 | Wordsworth | Why Rust is the Ideal Language for Vibe-Coding | Daniel Szoke (Sentry) | Maps to Fowler's *harnessability* thesis — strong typing and clearly definable module boundaries are what make mechanical verification (and therefore effective harnesses) possible. Previews Matt Pocock's 5:20pm keynote |
+
+> **Note:** "RAG is Dead, Right??" was previously listed here as an Abbey alternative, but per MCP data it actually runs **10:50-11:08am at Wesley** (morning expo block, before the track sessions begin). See the earlier expo block if you want to catch it.
 
 ---
 
@@ -372,8 +376,8 @@
 |---|---|---|---|
 | 9:00-10:30am | Keynote | All morning keynotes (incl. Lopopolo) | **CHOSEN** |
 | 10:30-10:48am | Wordsworth | Stop Babysitting Your Agents | **CHOSEN** |
-| 11:15-11:40am | Westminster | Harness Engineering AMA (Lopopolo) | **CHOSEN** |
-| 11:40-12:00pm | St. James | (TBA) — Nuno Campos | **CHOSEN** |
+| 11:15-11:40am | Westminster | OpenAI Symphony & Harness Engineering AMA (Lopopolo + Sapra) | **CHOSEN** |
+| 11:40-12:00pm | St. James | Teaching Coding Agents to do Spreadsheets (Nuno Campos) | **CHOSEN** |
 | 12:00-12:20pm | St. James | Hierarchical Memory (Sally-Ann Delucia) | **CHOSEN** |
 | 12:20-12:40pm | Moore | Skill Issue (Marc Klingen) | **CHOSEN** |
 | 12:40-1:00pm | Moore | Benchmarking Agents (Vincent Chen) | **CHOSEN** |
@@ -394,6 +398,6 @@
 
 ### Live-swap fallbacks if a chosen talk disappoints
 
-- **11:40am Nuno Campos** — speaker bet, abstract is TBA. Fallback: Danilo Campos *LLM Codegen Fails* in Moore (concrete PostHog failure-mode playbook).
+- **11:40am Nuno Campos** — confirmed title *"Teaching Coding Agents to do Spreadsheets"* — narrower applied framing than the LangChain-harness deep dive originally bet on. Fallback: Danilo Campos *LLM Codegen Fails* in Moore (concrete PostHog failure-mode playbook); the fallback is now competitive with the chosen pick.
 - **12:20pm Marc Klingen** — if skill content feels redundant after Pedro, no good in-slot pivot; just take notes.
 - **3:10pm Pedro Rodrigues** — if his benchmark data underwhelms, SWE-rebench (Badertdinov) in Moore is the closest fallback (no walk if you stayed in Moore for Snyder).
