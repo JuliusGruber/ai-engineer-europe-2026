@@ -99,25 +99,24 @@
 
 ## Track Sessions — Slot 2 (11:40am - 12:00pm)
 
-### CHOSEN: 11:40am - 12:00pm | St. James
+### CHOSEN: 11:40am - 12:00pm | Moore
 
-**Teaching Coding Agents to do Spreadsheets**
+**LLM Codegen Fails and How to Stop 'Em**
 
 | | |
 |---|---|
-| **Speaker** | Nuno Campos |
-| **Role** | LangChain co-founder |
-| **Type** | Track Keynote |
-| **Track** | Context Engineering |
+| **Speaker** | Danilo Campos |
+| **Type** | Talk |
+| **Track** | Evals & Observability |
 | **Status** | **CHOSEN** |
 
-> **Why:** Speaker bet on LangChain's depth on context architecture. The "Anatomy of an Agent Harness" post (Ralph Loop, filesystem as primitive, context rot countermeasures) is the hint at the substance. Title is now confirmed as *"Teaching Coding Agents to do Spreadsheets"* — a narrower applied framing than the harness-architecture deep dive originally anticipated. The LangChain insights on context management likely still apply (spreadsheets as structured data are a hard context problem), but **reconsider the trade-off with Danilo Campos** now that the abstract has resolved: if the spreadsheet framing doesn't carry over to coding agents on codebases, LLM Codegen Fails in Moore is the higher-signal fallback.
+> **Why:** Score 9. PostHog wizard at 5K users/month, isolated failure modes + mitigation playbook from hundreds of iterations. Direct hit on "what separates clean runs from spirals" — concrete failure modes map directly to your objectives. Swapped in over Nuno Campos once his title resolved to *"Teaching Coding Agents to do Spreadsheets"* — the spreadsheet framing is too narrow to justify holding the LangChain-architecture speaker bet.
 
 #### Alternatives in this slot
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
-| Moore | LLM Codegen Fails and How to Stop 'Em | Danilo Campos | Evals & Observability | Score 9. Abstract: PostHog wizard at 5K users/month, isolated failure modes + mitigation playbook from hundreds of iterations. Direct hit on "what separates clean runs from spirals" — strong fallback if the Nuno keynote disappoints early, and **arguably the better pick now that Nuno's confirmed title is spreadsheets-applied rather than harness-architecture** |
+| St. James | Teaching Coding Agents to do Spreadsheets | Nuno Campos | Context Engineering | LangChain co-founder. Title confirmed as spreadsheets-applied, narrower than the harness-architecture deep dive originally bet on. LangChain's context-management insights may still surface, but no longer the higher-signal pick for coding agents on codebases |
 
 ---
 
@@ -377,7 +376,7 @@
 | 9:00-10:30am | Keynote | All morning keynotes (incl. Lopopolo) | **CHOSEN** |
 | 10:30-10:48am | Wordsworth | Stop Babysitting Your Agents | **CHOSEN** |
 | 11:15-11:40am | Westminster | OpenAI Symphony & Harness Engineering AMA (Lopopolo + Sapra) | **CHOSEN** |
-| 11:40-12:00pm | St. James | Teaching Coding Agents to do Spreadsheets (Nuno Campos) | **CHOSEN** |
+| 11:40-12:00pm | Moore | LLM Codegen Fails and How to Stop 'Em (Danilo Campos) | **CHOSEN** |
 | 12:00-12:20pm | St. James | Hierarchical Memory (Sally-Ann Delucia) | **CHOSEN** |
 | 12:20-12:40pm | Moore | Skill Issue (Marc Klingen) | **CHOSEN** |
 | 12:40-1:00pm | Moore | Benchmarking Agents (Vincent Chen) | **CHOSEN** |
@@ -392,12 +391,12 @@
 
 ### Room movement notes
 
-- **11:40am → 12:00pm:** No walk — both Nuno and Sally-Ann in St. James.
+- **11:40am → 12:00pm:** Walk from Moore (Danilo Campos) → St. James (Sally-Ann Delucia). Short hop.
 - **12:00pm → 12:20pm:** Walk from St. James → Moore for Klingen. Then stay in Moore through Vincent Chen at 12:40pm.
 - **2:50pm → 3:10pm:** Walk from Moore (Snyder) → St. James (Pedro). The trade-off you accepted to get Pedro's skills+MCP benchmarks.
 
 ### Live-swap fallbacks if a chosen talk disappoints
 
-- **11:40am Nuno Campos** — confirmed title *"Teaching Coding Agents to do Spreadsheets"* — narrower applied framing than the LangChain-harness deep dive originally bet on. Fallback: Danilo Campos *LLM Codegen Fails* in Moore (concrete PostHog failure-mode playbook); the fallback is now competitive with the chosen pick.
+- **11:40am Danilo Campos** — if the PostHog wizard playbook feels too product-specific, Nuno Campos *"Teaching Coding Agents to do Spreadsheets"* in St. James is the in-slot pivot (LangChain depth on structured-data context).
 - **12:20pm Marc Klingen** — if skill content feels redundant after Pedro, no good in-slot pivot; just take notes.
 - **3:10pm Pedro Rodrigues** — if his benchmark data underwhelms, SWE-rebench (Badertdinov) in Moore is the closest fallback (no walk if you stayed in Moore for Snyder).
