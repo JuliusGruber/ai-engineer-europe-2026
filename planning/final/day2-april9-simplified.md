@@ -29,7 +29,7 @@
 
 ### 9:30 - 9:50am | Keynote Stage
 
-**Keynote (title TBA)**
+**Frontier AI and the Future of Intelligence**
 
 | | |
 |---|---|
@@ -74,27 +74,26 @@
 
 ### 11:15 - 11:40am | Westminster
 
-**Harness Engineering AMA**
+**OpenAI Symphony & Harness Engineering AMA**
 
 | | |
 |---|---|
-| **Speaker** | Ryan Lopopolo |
-| **Role** | Member of Technical Staff @ OpenAI |
+| **Speakers** | Ryan Lopopolo, Vibhu Sapra |
+| **Role** | Members of Technical Staff @ OpenAI |
 | **Track** | Harness Engineering |
 | **Type** | Track Keynote |
 
 ---
 
-### 11:40am - 12:00pm | St. James
+### 11:40am - 12:00pm | Moore
 
-**(title TBA)**
+**LLM Codegen Fails and How to Stop 'Em**
 
 | | |
 |---|---|
-| **Speaker** | Nuno Campos |
-| **Role** | LangChain co-founder |
-| **Track** | Context Engineering |
-| **Type** | Track Keynote |
+| **Speaker** | Danilo Campos |
+| **Track** | Evals & Observability |
+| **Type** | Talk |
 
 ---
 
@@ -268,8 +267,8 @@
 |---|---|---|---|
 | 9:00-10:30am | Keynote | All morning keynotes (incl. Lopopolo) | **CHOSEN** |
 | 10:30-10:48am | Wordsworth | Stop Babysitting Your Agents (Walsenuk) | **CHOSEN** |
-| 11:15-11:40am | Westminster | Harness Engineering AMA (Lopopolo) | **CHOSEN** |
-| 11:40am-12:00pm | St. James | (TBA) — Nuno Campos | **CHOSEN** |
+| 11:15-11:40am | Westminster | OpenAI Symphony & Harness Engineering AMA (Lopopolo + Sapra) | **CHOSEN** |
+| 11:40am-12:00pm | Moore | LLM Codegen Fails and How to Stop 'Em (Danilo Campos) | **CHOSEN** |
 | 12:00-12:20pm | St. James | Hierarchical Memory (Sally-Ann Delucia) | **CHOSEN** |
 | 12:20-12:40pm | Moore | Skill Issue (Marc Klingen) | **CHOSEN** |
 | 12:40-1:00pm | Moore | Benchmarking Agents (Vincent Chen) | **CHOSEN** |
