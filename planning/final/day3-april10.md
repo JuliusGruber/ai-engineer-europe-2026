@@ -8,7 +8,7 @@
 > **Abstract-risk inventory (CHOSEN/SUGGESTED slots only).** Eight slots have a "TBA / TODO / no abstract" status in `aie` and are picks-by-default with the risk acknowledged. Treat the framing in those rows as published-research-derived, not promised-by-the-talk:
 >
 > 1. ~~**Soria Parra** (9:20 keynote, CHOSEN) — `aie` description literally "Session title and abstract to be finalized"~~ **RESOLVED:** `aie` now has a brief abstract: *"I will lay out what I believe will be true for agents in 2026 and how MCP plays a part in this."* Still vague but no longer blank
-> 2. **Building AI Systems That Ship** (10:30 Wesley, SUGGESTED add-on) — no speaker listed in `aie`; content inferred from Case/WorkOS CLI references in the abstract
+> 2. **Building AI Systems That Ship** (10:30 Wesley, now alternative) — no speaker listed in `aie`; content inferred from Case/WorkOS CLI references in the abstract. Replaced as CHOSEN by "Can LLMs generate Enterprise Quality Code?" in Wordsworth
 > 3. **Gomes** (11:15 Fleming, alternative) — David Gomes is a 9/10 speaker but the abstract is literally "TODO"; "60x reduction" framing inferred from the title
 > 4. ~~**Factory Missions** (12:40 Fleming, CHOSEN) — speakers confirmed (Grinberg + Alvoeiro), `aie` returns no description; content inferred from Factory's published docs~~ **RESOLVED:** `aie` now has a full abstract — framing is multi-agent taxonomy (five strategies, orchestrator/workers/validators, serial vs parallel, adversarial verification), not the git-as-state / milestone-based framing inferred from Factory's docs. See updated slot notes below
 > 5. **Benchmarking semantic code retrieval** (4:05 Wordsworth, SUGGESTED) — abstract exists but explicitly says "small set of representative tasks" — already downgraded in row
@@ -67,49 +67,50 @@
 
 ## Expo Session (10:30 - 10:48am)
 
-### CHOSEN: 10:30 - 10:48am | Wesley
+### CHOSEN: 10:30 - 10:48am | Wordsworth
 
-**Building AI Systems That Ship**
+**Can LLMs generate Enterprise Quality Code?**
 
 | | |
 |---|---|
-| **Speaker** | (no speaker listed in aie — abstract names *Case* and the *WorkOS CLI*; could be Nisi, Proser, or another Case/WorkOS team member) |
+| **Speaker** | (no speaker listed in aie) |
 | **Type** | Expo Session |
-| **Status** | **CHOSEN** (flows directly into Allam at 10:50 in the same room) |
+| **Status** | **CHOSEN** |
 
-> **Why:** Case is Nick Nisi's published harness work (10/10 in speakers.md, *Case Statement: Building a Harness — 6-agent deterministic pipeline*). Abstract: *"agent-ready means a codebase agents can safely change, and a product agents can reliably use… clear constraints, machine-friendly interfaces, and feedback loops that compound over time."* Direct hit on the harness-engineering objective and the cheapest addition on Day 3 — Zechner ends at 10:30, this starts at 10:30 in Wesley, ends at 10:48, and Allam starts at 10:50 in the same room. Walk straight from the Keynote Stage to Wesley after Zechner and stay there for the next 38 minutes.
+> **Why:** Benchmark of 50+ LLMs on code-quality dimensions (reliability, maintainability, security) paired with deterministic static analysis. Models are not the same — some produce 2x+ the issues of others. Shows how to integrate AI agents with static analysis to ensure enterprise-level quality without killing productivity gains. Direct hit on the "results on real code or it didn't happen" filter and the measurement objective.
 >
-> **Caveats:** (1) `aie` lists no speaker for this slot — the Nisi attribution is inferred from the abstract's references to Case + WorkOS CLI. The abstract uses singular "**I'll** walk through," so it is one speaker, not the Nisi+Proser workshop pairing — likely Nisi *or* Proser *or* another single Case/WorkOS team member. (2) If the speaker turns out to be Nisi and they cover the same Case material from the Day 1 Skills at Scale workshop you're already attending, this is a partial repeat. Listen for whether the "WorkOS CLI as a product agents can reliably use" angle is new.
+> **Room-flow note:** This is in Wordsworth, not Wesley. You'll need to move to Wesley for Allam at 10:50 — a 2-minute room change. Zechner ends at 10:30 on the Keynote Stage, walk to Wordsworth for this, then to Wesley for Allam at 10:50.
 
 #### Alternatives in this slot
 
 | Room | Talk | Speaker | Relevance |
 |---|---|---|---|
-| Wordsworth | Can LLMs generate Enterprise Quality Code? | — | Benchmark of 50+ LLMs on code-quality dimensions paired with deterministic static analysis. Marginal-but-on-objective for the "results on real code" filter. Skip if you're going to Wesley for Nisi |
+| Wesley | Building AI Systems That Ship | (no speaker listed — abstract references Case + WorkOS CLI) | Case is Nick Nisi's published harness work (10/10 in speakers.md). Abstract: *"agent-ready means a codebase agents can safely change, and a product agents can reliably use."* Direct hit on harness-engineering objective. Flows directly into Allam at 10:50 in the same room (Wesley) — zero room change. **Caveats:** no speaker listed; if Nisi covers the same Case material from Day 1's Skills at Scale workshop, this is a partial repeat |
 | Shelley | Does GenAI "belong" to data scientists? | Phil Hetzel | Org/ownership framing for GenAI work. Off-objective — skip |
 
 ---
 
 ## Expo Session (10:50 - 11:08am)
 
-### 10:50 - 11:08am | Wesley
+### CHOSEN: 10:50 - 11:08am | Shelley
 
-**Two Roads to Durable Agents: Replay vs. Snapshot**
+**Spec-Driven Testing for Agents With A Brain the Size of A Planet**
 
 | | |
 |---|---|
-| **Speaker** | Eric Allam |
-| **Company** | Trigger.dev |
+| **Speaker** | (no speaker listed in aie) |
 | **Type** | Expo Session |
 | **Status** | **CHOSEN** |
 
-> **Why:** This fills a Day 1–2 gap. Day 1's Anthropic workshop covered building hours-long agents; Day 2's Lopopolo keynote covered the Codex App Server architecture. Neither went deep on the replay-vs-snapshot trade-off — and that single architectural choice determines whether "always have an agent running" (Hashimoto step 6) actually works in your setup. Eric ships durable agent infrastructure for a living (CRIU checkpoint/restore, waitpoints, MCP server). Listen for: which approach survives network drops, context switches, and hour-long sessions without losing progress, and what the cost/complexity trade-off looks like.
+> **Why:** Practical framework for defining agent behavior as specs and automating testing beyond canned prompts. Covers different spec types (red/gold team sets, rules, constraints, policies) and testing approaches including robustness checks based on lightweight formal methods and fuzzing. Directly applicable to the measurement objective — "how do I know if changes to my harness or context setup are actually making things better?" This gives you the spec-writing and automated-testing layer for skills and agents.
+>
+> **Room-flow note:** Previous slot is now in Wordsworth (Enterprise Quality Code). Move to Shelley for this, then to Westminster for Debois at 11:15.
 
 #### Alternatives in this slot
 
 | Room | Talk | Speaker | Relevance |
 |---|---|---|---|
-| Shelley | Spec-Driven Testing for Agents With A Brain the Size of A Planet | — | Specs/red-team/gold-team/fuzzing for agents. Adjacent to objectives — relevant only if you treat skill/agent test specs as a measurement layer |
+| Wesley | Two Roads to Durable Agents: Replay vs. Snapshot | Eric Allam (Trigger.dev) | Replay-vs-snapshot trade-off for durable agents — CRIU checkpoint/restore, waitpoints, MCP server. Fills a Day 1–2 gap on the architectural choice behind "always have an agent running." Strong alternative if durability patterns are a higher priority than the testing/measurement layer |
 | Wordsworth | How to talk to statues | — | ElevenLabs voice-AI demo (museum/CV/voice). Off-objective — skip |
 
 ---
@@ -441,8 +442,8 @@
 |---|---|---|---|
 | 9:00-9:20am | Keynote | Sanseviero (Gemma open models) | SKIP — off-objective |
 | 9:20-10:30am | Keynote | Soria Parra (MCP) · Gostev (failure modes) · Zechner (pi) | **CHOSEN** (Salomon AgentCraft 10:00 also off-objective) |
-| 10:30-10:48am | Wesley | Building AI Systems That Ship (likely Nick Nisi / Case harness) | **CHOSEN** (flows into Allam) |
-| 10:50-11:08am | Wesley | Two Roads to Durable Agents (Eric Allam) | **CHOSEN** |
+| 10:30-10:48am | Wordsworth | Can LLMs generate Enterprise Quality Code? | **CHOSEN** |
+| 10:50-11:08am | Shelley | Spec-Driven Testing for Agents (spec types, fuzzing, formal methods) | **CHOSEN** |
 | 11:15-11:40am | Westminster | Context Is the New Code (Patrick Debois, Tessl) | **CHOSEN** |
 | 11:40am-12:00pm | St. James | Chrome DevTools MCP Lessons (Michael Hablich) | **CHOSEN** |
 | 12:00-12:20pm | Fleming | Fast Models Need Slow Developers (Sarah Chieng) | **CHOSEN** |

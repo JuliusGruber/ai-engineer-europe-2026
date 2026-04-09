@@ -41,9 +41,9 @@
 
 ---
 
-### 10:30 - 10:48am | Wesley
+### 10:30 - 10:48am | Wordsworth
 
-**Building AI Systems That Ship**
+**Can LLMs generate Enterprise Quality Code?**
 
 | | |
 |---|---|
@@ -51,14 +51,12 @@
 
 ---
 
-### 10:50 - 11:08am | Wesley
+### 10:50 - 11:08am | Shelley
 
-**Two Roads to Durable Agents: Replay vs. Snapshot**
+**Spec-Driven Testing for Agents With A Brain the Size of A Planet**
 
 | | |
 |---|---|
-| **Speaker** | Eric Allam |
-| **Role** | CTO @ Trigger.dev |
 | **Type** | Expo Session |
 
 ---
@@ -232,8 +230,8 @@
 | 9:20-9:40am | Keynote | The Future of MCP (Soria Parra) | **CHOSEN** |
 | 9:40-10:00am | Keynote | What Do Models Still Suck At? (Gostev) | **CHOSEN** |
 | 10:10-10:30am | Keynote | Building pi in a World of Slop (Zechner) | **CHOSEN** |
-| 10:30-10:48am | Wesley | Building AI Systems That Ship | **CHOSEN** |
-| 10:50-11:08am | Wesley | Two Roads to Durable Agents (Allam) | **CHOSEN** |
+| 10:30-10:48am | Wordsworth | Can LLMs generate Enterprise Quality Code? | **CHOSEN** |
+| 10:50-11:08am | Shelley | Spec-Driven Testing for Agents (spec types, fuzzing, formal methods) | **CHOSEN** |
 | 11:15-11:40am | Westminster | Context Is the New Code (Debois) | **CHOSEN** |
 | 11:40am-12:00pm | St. James | Chrome DevTools MCP (Hablich) | **CHOSEN** |
 | 12:00-12:20pm | Fleming | Fast Models Need Slow Developers (Chieng) | **CHOSEN** |
