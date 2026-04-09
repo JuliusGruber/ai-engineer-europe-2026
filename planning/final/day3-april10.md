@@ -145,25 +145,25 @@
 
 ## Track Sessions — Slot 2 (11:40am - 12:00pm)
 
-### CHOSEN: 11:40am - 12:00pm | St. James
+### CHOSEN: 11:40am - 12:00pm | Fleming
 
-**Building Agent Interfaces: Lessons from Chrome DevTools MCP for Agents**
+**A Piece of PI — Embedding The OpenClaw Coding Agent In Your Product**
 
 | | |
 |---|---|
-| **Speaker** | Michael Hablich |
-| **Company** | Google |
+| **Speaker** | Matthias Luebken |
+| **Company** | TAVON.ai |
 | **Type** | Talk |
-| **Track** | MCP |
+| **Track** | Coding Agents |
 | **Status** | **CHOSEN** |
 
-> **Why:** Production lessons from shipping a real MCP server *wrong*, then fixing it (33K-star repo). The story is the lessons: monolithic tool → 26 composable tools, error messages rewritten 3x for agent self-recovery, token efficiency as a core requirement rather than an optimization. This is Fowler's "positive prompt injection" and "sensors" concepts in practice, and the most actionable MCP-design talk of the conference. Pair it with Pedro Rodrigues from Day 2: Pedro framed *when* skills vs MCP, Hablich shows *how* to build the MCP side so agents actually consume it well. Direct input for any MCP server you maintain or evaluate.
+> **Why:** Internals of pi.dev — a deliberately simple coding agent built on a small set of powerful primitives. pi's "radical extensibility" powers OpenClaw's composable, evolving use cases: auto-discovering capabilities, exploring data sources, stitching components together. Aimed at a technically curious audience who want to look beyond the surface. Keeps you in Fleming for a four-talk streak (Luebken → Chieng → Jones → Factory Missions) — zero room changes from 11:40am to 1:00pm.
 
 #### Alternatives in this slot
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
-| Fleming | A Piece of PI — Embedding the OpenClaw Coding Agent in Your Product | Matthias Luebken (TAVON.ai) | Coding Agents | Internals of a coding agent's composable primitives. Less directly applicable than Hablich unless you're embedding pi specifically |
+| St. James | Building Agent Interfaces: Lessons from Chrome DevTools MCP for Agents | Michael Hablich (Google) | MCP | Production lessons from shipping a real MCP server wrong then fixing it (33K-star repo). Monolithic tool → 26 composable tools, error messages rewritten 3x for agent self-recovery, token efficiency as a core requirement. The most actionable MCP-design talk of the conference — strong alternative if MCP server design is a priority |
 | Westminster | Rewiring the State | Eoin Mulgrew | AI Architects | UK No 10 government tech rebuild — call to arms for engineers to join. Off-objective for harness work — skip |
 | Abbey | Scaling Reinforcement Learning: Lessons from Trillion-Token Deployments at Fortune 500s | Alessandro Cappelli (Adaptive ML) | GPUs & LLM Infra | Fortune-500 RL post-training at scale. Off-objective for coding-agent harness work — skip |
 
@@ -326,32 +326,27 @@
 
 ## Track Sessions — Slot 7 (2:50 - 3:10pm)
 
-### CHOSEN: 2:50 - 3:10pm | Westminster
+### CHOSEN: 2:50 - 3:10pm | Abbey
 
-**How Building with AI Can Double the Throughput of Your Engineering Team**
+**Beyond Code Coverage: Functionality Testing with Playwright**
 
 | | |
 |---|---|
-| **Speaker** | Brian Scanlan |
-| **Company** | Intercom |
+| **Speaker** | Marlene Mhangami |
+| **Company** | Microsoft |
 | **Type** | Talk |
-| **Track** | AI Architects |
+| **Track** | GPUs & LLM Infrastructure |
 | **Status** | **CHOSEN** |
 
-> **Why:** One of the two production-at-scale field reports of Day 3 (the other is Spitz at 3:10 — same room, back-to-back). Intercom has been one of the loudest published voices on coding agents in production: 13 plugins, 100+ skills, hooks, ~90% of PRs authored by Claude Code, the explicit 2x throughput initiative. Scanlan publishes the "How we use Claude Code today at Intercom" piece that maps directly onto every layer of your harness. Filter from the Day 3 thesis: does it tell me something I haven't already heard from Werry, Walsenuk, Lopopolo, Klingen, Pedro Rodrigues, Snyder, or the Anthropic harness papers? **Yes** — Intercom is a peer org running this on a real SaaS codebase with history and tech debt, not a clean demo and not a vendor showing off their own tool.
->
-> **Abstract caveat:** The published `aie` abstract is one short paragraph — Intercom's 2x goal and "lessons and learnings… what has and hasn't worked." None of the "13 plugins / 100+ skills / hooks / ~90% of PRs" specifics above are *promised* by the talk; they're inferred from Scanlan's published Intercom posts (`speakers.md`). Confidence is higher than for the Soria Parra / Gomes / Factory Missions slots because Scanlan's posts are recent and concrete, but the abstract itself doesn't commit to any of those numbers. Listen for whether he updates the published figures or stays at the "lessons learned" altitude.
->
-> **Bonus structural win:** Westminster → Westminster from 2:50 → 3:10 (Scanlan → Spitz) is the cleanest room flow of the afternoon. Both production case studies, same room, no context-switching. The two talks together bracket the technical and organizational sides of "what does coding agents at scale actually look like."
+> **Why:** LLM-generated unit tests pass code coverage but don't verify functionality — the final test is whether the application actually works. Covers how to build tests with Playwright, set it up in agentic workflows, and access it through the new Playwright MCP server. Best practices for using Playwright locally and in CI. Directly applicable to the "results on real code or it didn't happen" filter and the automated-feedback-loop objective — this is the e2e testing layer for agent-written code.
 
 #### Alternatives in this slot
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
-| Fleming | Let's Talk About FOMAT — Fear of Missing Agent Time | Michael Richman | Coding Agents | Cmd+Ctrl: phone/watch control plane for Claude Code, Codex, Gemini CLI. Practical async-agent tooling that complements Day 2's Untethered Productivity and Allam's morning durability talk. Lighter demo talk — fine if you're flagging and Scanlan feels like another "agents at scale" beat after Burtenshaw |
-| St. James | Your Agent Is an Infinite Canvas | RL Nabors | MCP | Argues chat is the wrong UI primitive for agents (terminal-as-canvas analogy). Agent-UX angle, not harness — defensible skip. **Tactical use:** if you switched to Morrow at 2:30, this keeps you in St. James for the production-MCP arc into Sampath at 3:10 (Morrow → Nabors → Sampath, all-St. James fallback) |
-| Abbey | Beyond Code Coverage: Functionality Testing with Playwright | Marlene Mhangami (Microsoft) | GPUs & LLM Infra | LLM-generated unit tests pass code coverage but don't verify functionality — argues for Playwright + the new Playwright MCP server as the e2e check on agent-written code. Adjacent to "results on real code or it didn't happen" and your automated-feedback-loop objective. Skip unless your harness is missing a functional-test layer today |
-| Hallway | Decompress | — | — | If you're flagging, a 20-min reset before the closing keynotes is still legitimate. But Scanlan + Spitz is the strongest 40-min block of the afternoon — protect this and decompress between Spitz and Gergely instead |
+| Westminster | How Building with AI Can Double the Throughput of Your Engineering Team | Brian Scanlan (Intercom) | AI Architects | Production case study: Intercom's 2x throughput initiative with coding agents. 13 plugins, 100+ skills, ~90% of PRs by Claude Code. Strong alternative — peer org running this on a real SaaS codebase with tech debt |
+| Fleming | Let's Talk About FOMAT — Fear of Missing Agent Time | Michael Richman | Coding Agents | Cmd+Ctrl: phone/watch control plane for Claude Code, Codex, Gemini CLI. Practical async-agent tooling |
+| St. James | Your Agent Is an Infinite Canvas | RL Nabors | MCP | Argues chat is the wrong UI primitive for agents (terminal-as-canvas analogy). Agent-UX angle, not harness |
 
 ---
 
@@ -445,14 +440,14 @@
 | 10:30-10:48am | Wordsworth | Can LLMs generate Enterprise Quality Code? | **CHOSEN** |
 | 10:50-11:08am | Shelley | Spec-Driven Testing for Agents (spec types, fuzzing, formal methods) | **CHOSEN** |
 | 11:15-11:40am | Westminster | Context Is the New Code (Patrick Debois, Tessl) | **CHOSEN** |
-| 11:40am-12:00pm | St. James | Chrome DevTools MCP Lessons (Michael Hablich) | **CHOSEN** |
+| 11:40am-12:00pm | Fleming | A Piece of PI — OpenClaw Coding Agent (Matthias Luebken) | **CHOSEN** |
 | 12:00-12:20pm | Fleming | Fast Models Need Slow Developers (Sarah Chieng) | **CHOSEN** |
 | 12:20-12:40pm | Fleming | Fighting AI with AI (Lawrence Jones) | **CHOSEN** |
 | 12:40-1:00pm | Fleming | Factory Missions — Multi-Agent Systems That Ship for Days (Grinberg, Alvoeiro) | **CHOSEN** |
 | 1:25-1:43pm | Shelley | Task Fidelity Scaling Laws | **CHOSEN** |
 | 1:45-2:03pm | Shelley | Comprehend First, Code Later (Sentry) | **CHOSEN** |
 | 2:30-2:50pm | Fleming | Your Coding Agent Should Do AI System Engineering (Burtenshaw, HF) | **CHOSEN** |
-| 2:50-3:10pm | Westminster | How Building with AI Can Double Throughput (Brian Scanlan, Intercom) | **CHOSEN** |
+| 2:50-3:10pm | Abbey | Beyond Code Coverage: Functionality Testing with Playwright (Marlene Mhangami) | **CHOSEN** |
 | 3:10-3:30pm | Westminster | Agents Don't Do Standups (Mike Spitz) | **CHOSEN** |
 | 4:05-4:23pm | Wesley | AMA: AI Engineer Europe with swyx | **CHOSEN** |
 | 4:30-4:50pm | Keynote | Fireside: Gergely Orosz + Tuomas Artman (Linear) | **CHOSEN** |
@@ -460,7 +455,7 @@
 | 5:20-5:40pm | Keynote | The Friction Is Your Judgment (Armin Ronacher) | **CHOSEN** |
 | 5:40-6:00pm | Keynote | (TBA — Kalbir Sohi) | SKIP unless abstract surfaces |
 
-> **Room-flow note for the 11:15 → 12:00 block.** With Debois now the 11:15 pick, the path is **Westminster (Debois) → St. James (Hablich) → Fleming (Chieng)** — two room changes inside 45 minutes. Probably fine in the QEII Centre but worth knowing. Two zero-churn alternatives if the walks become a problem on the day: **all-Westminster** keeps you with Debois then Mulgrew (off-objective) then Grogan-Avignon/Wang (off-objective) — weak content; **all-St. James** is Carey → Hablich → MCP UI — pure MCP track but you lose Debois's measurement angle and Chieng's fast-models playbook. The current Westminster → St. James → Fleming path is the strongest content path; the room cost is real but acceptable.
+> **Room-flow note for the 11:15 → 1:00pm block.** Westminster (Debois, 11:15) → Fleming (Luebken → Chieng → Jones → Factory Missions, 11:40–1:00pm). One room change at 11:40, then a **four-talk streak in Fleming** with zero moves through the densest hour of the day.
 
 ### Hardest trade-offs of the day
 
@@ -470,4 +465,4 @@
 
 3. **12:40pm — Factory Missions vs. CI/CD Is Dead.** Factory = multi-agent taxonomy (orchestrator/workers/validators, serial vs parallel, adversarial verification) from production data. CI/CD = the infrastructure bottleneck when agents open hundreds of PRs. Default: Factory — more directly applicable to your harness work. Switch if you're hitting CI capacity limits today and need the infra angle.
 
-4. **No real trade-off at 2:50pm.** Brian Scanlan at Westminster is the strongest pick by a wide margin (production case study from Intercom, peer org running Claude Code on a real SaaS codebase, ~90% of PRs by Claude Code). FOMAT is the fallback only if you're flagging and a phone-based control-plane demo feels like enough. Westminster also keeps you in the same room for Spitz at 3:10 — protect this 40-min block and decompress *between* Spitz and the Gergely fireside instead.
+4. **2:50pm — Playwright (Mhangami) vs. Scanlan (Intercom).** Mhangami = e2e functional testing with Playwright + the new Playwright MCP server, the automated-feedback-loop layer for agent-written code. Scanlan = Intercom's 2x throughput initiative, production case study with 100+ skills and ~90% of PRs by Claude Code. **Default: Mhangami** for the concrete testing playbook. **Note:** this means a room change from Fleming (Burtenshaw, 2:30) → Abbey (Mhangami, 2:50) → Westminster (Spitz, 3:10) — two moves in 40 minutes.
