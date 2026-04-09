@@ -7,10 +7,10 @@
 >
 > **Abstract-risk inventory (CHOSEN/SUGGESTED slots only).** Eight slots have a "TBA / TODO / no abstract" status in `aie` and are picks-by-default with the risk acknowledged. Treat the framing in those rows as published-research-derived, not promised-by-the-talk:
 >
-> 1. **Soria Parra** (9:20 keynote, CHOSEN) — `aie` description literally "Session title and abstract to be finalized"
+> 1. ~~**Soria Parra** (9:20 keynote, CHOSEN) — `aie` description literally "Session title and abstract to be finalized"~~ **RESOLVED:** `aie` now has a brief abstract: *"I will lay out what I believe will be true for agents in 2026 and how MCP plays a part in this."* Still vague but no longer blank
 > 2. **Building AI Systems That Ship** (10:30 Wesley, SUGGESTED add-on) — no speaker listed in `aie`; content inferred from Case/WorkOS CLI references in the abstract
 > 3. **Gomes** (11:15 Fleming, alternative) — David Gomes is a 9/10 speaker but the abstract is literally "TODO"; "60x reduction" framing inferred from the title
-> 4. **Factory Missions** (12:40 Fleming, CHOSEN) — speakers confirmed (Grinberg + Alvoeiro), `aie` returns no description; content inferred from Factory's published docs
+> 4. ~~**Factory Missions** (12:40 Fleming, CHOSEN) — speakers confirmed (Grinberg + Alvoeiro), `aie` returns no description; content inferred from Factory's published docs~~ **RESOLVED:** `aie` now has a full abstract — framing is multi-agent taxonomy (five strategies, orchestrator/workers/validators, serial vs parallel, adversarial verification), not the git-as-state / milestone-based framing inferred from Factory's docs. See updated slot notes below
 > 5. **Benchmarking semantic code retrieval** (4:05 Wordsworth, SUGGESTED) — abstract exists but explicitly says "small set of representative tasks" — already downgraded in row
 > 6. **Gergely + Artman fireside** (4:30 keynote, CHOSEN) — `aie` returns title only, no description
 > 7. **Lauritzen — Agents need more than a chat** (5:00 keynote, SKIP/decompress) — `aie` returns title only; flagged in row as "stay seated if Lauritzen surfaces something concrete"
@@ -31,7 +31,7 @@
 
 > **Why attend:** MCP is the protocol layer underneath every Skills + MCP decision Pedro Rodrigues framed on Day 2. David is the co-creator and authored the 2026 MCP roadmap (enterprise readiness, Tasks primitive, agent-to-agent communication). Listen for: what's the protocol-level direction that determines whether your harness should bet on MCP for tool delivery, or stick with skills/CLI? This sets the bounds on every "skill vs MCP server" decision you'll make for the next year.
 >
-> **Caveat:** AIE abstract still TBA — framing is based on Soria Parra's published 2026 MCP roadmap, not the talk itself. If the slot turns into a release/news announcement, the playbook value is lower than expected.
+> **Update (MCP sync 2026-04-09):** AIE abstract now available: *"I will lay out what I believe will be true for agents in 2026 and how MCP plays a part in this. Let's take a look what connectivity for agents might look like."* Still high-level — framing from Soria Parra's published 2026 MCP roadmap remains the best prep. If the slot turns into a release/news announcement, the playbook value is lower than expected.
 
 ### 9:40 - 10:00am | What Do Models Still Suck At?
 
@@ -164,7 +164,7 @@
 |---|---|---|---|---|
 | Fleming | A Piece of PI — Embedding the OpenClaw Coding Agent in Your Product | Matthias Luebken (TAVON.ai) | Coding Agents | Internals of a coding agent's composable primitives. Less directly applicable than Hablich unless you're embedding pi specifically |
 | Westminster | Rewiring the State | Eoin Mulgrew | AI Architects | UK No 10 government tech rebuild — call to arms for engineers to join. Off-objective for harness work — skip |
-| Abbey | Scaling Reinforcement Learning: Lessons from Trillion-Token Deployments at Fortune 500s | Jullien Launay | GPUs & LLM Infra | Fortune-500 RL post-training at scale. Off-objective for coding-agent harness work — skip |
+| Abbey | Scaling Reinforcement Learning: Lessons from Trillion-Token Deployments at Fortune 500s | Alessandro Cappelli (Adaptive ML) | GPUs & LLM Infra | Fortune-500 RL post-training at scale. Off-objective for coding-agent harness work — skip |
 
 ---
 
@@ -172,7 +172,7 @@
 
 ### CHOSEN: 12:00 - 12:20pm | Fleming
 
-**The Year of Latency Debt (And How Big Tech Is Paying It Down)**
+**Fast Models Need Slow Developers**
 
 | | |
 |---|---|
@@ -181,9 +181,11 @@
 | **Track** | Coding Agents |
 | **Status** | **CHOSEN** |
 
-> **Why:** This is "corrections are cheap, waiting is expensive" (OpenAI harness engineering, Lopopolo Day 2 keynote) taken to its logical conclusion. At 1,000+ tokens/sec the workflow inverts: smaller diffs, automated feedback loops, stop auto-accepting large code changes. Most "best practices" in your current harness assume the slow-inference world. This talk is the recalibration. Practical playbook, directly applicable to daily workflow design — the kind of "change I can make when I get home" the objectives demand.
+> **Why:** This is "corrections are cheap, waiting is expensive" (OpenAI harness engineering, Lopopolo Day 2 keynote) taken to its logical conclusion. At 1,200+ tokens/sec the workflow inverts: smaller diffs, automated feedback loops, stop auto-accepting large code changes. Most "best practices" in your current harness assume the slow-inference world. This talk is the recalibration. Practical playbook, directly applicable to daily workflow design — the kind of "change I can make when I get home" the objectives demand.
 >
-> **Vendor caveat:** Sarah is Head of DevX at **Cerebras**, and the talk is grounded in "Codex Spark" — Cerebras-hosted Codex at 1000+ tok/s. Technically a vendor talk. The playbook on smaller diffs / no-auto-accept / automated feedback loops generalizes regardless of whose silicon serves the inference, so the substance still holds.
+> **Update (MCP sync 2026-04-09):** Title changed from "The Year of Latency Debt (And How Big Tech Is Paying It Down)" to "Fast Models Need Slow Developers." Abstract: *"We've developed a series of 'bad habits' as a consequence of slow AI code generation. We write huge prompts, generate massive code diffs, or create 10 parallel sessions because each response takes so long. Codex Spark represents a genuine paradigm shift: 1,200+ tokens/second enables real-time collaboration that requires a new approach to work."* Same content, better framing — the "slow developers" angle reinforces the recalibration thesis.
+>
+> **Vendor caveat:** Sarah is Head of DevX at **Cerebras**, and the talk is grounded in "Codex Spark" — Cerebras-hosted Codex at 1200+ tok/s. Technically a vendor talk. The playbook on smaller diffs / no-auto-accept / automated feedback loops generalizes regardless of whose silicon serves the inference, so the substance still holds.
 
 #### Alternatives in this slot
 
@@ -230,7 +232,7 @@
 
 ### CHOSEN: 12:40 - 1:00pm | Fleming
 
-**Factory Missions — Super Long Running Agents**
+**Factory Missions — Multi-Agent Systems That Ship for Days**
 
 | | |
 |---|---|
@@ -240,15 +242,17 @@
 | **Track** | Coding Agents |
 | **Status** | **CHOSEN** |
 
-> **Why:** Extends the Anthropic long-running agents workshop you took on Day 1 into production patterns: initializer/coder split, git-as-state, milestone-based validation, TDD cycles, progress artifacts, autonomy ratio metrics. Factory ships this for a living and publishes architecture details. Directly answers "how should agent sessions handle real-world interruptions without losing progress?" and connects to Eric Allam's replay-vs-snapshot expo session two hours earlier (you'll be primed to hear which architecture they chose and why). Bonus: three Fleming Coding Agents talks back-to-back (Chieng → Jones → Factory Missions), then Burtenshaw after lunch in the same room — minimal context-switching during the densest hour of the day.
+> **Why:** Extends the Anthropic long-running agents workshop you took on Day 1 into production multi-agent patterns. Connects to Eric Allam's replay-vs-snapshot expo session two hours earlier. Bonus: three Fleming Coding Agents talks back-to-back (Chieng → Jones → Factory Missions), then Burtenshaw after lunch in the same room — minimal context-switching during the densest hour of the day.
 >
-> **Caveat:** AIE abstract is not yet published — the architectural specifics above are inferred from Factory's published docs (SKILL.md system, DroidShield, milestone-based validation, autonomy ratio metrics) and speakers.md, not promised by the talk. Speakers are confirmed: Matan Grinberg (CEO @ Factory) and Luke Alvoeiro (Product/Tech Lead @ Factory).
+> **Update (MCP sync 2026-04-09):** Abstract now published. The talk is framed as a **multi-agent taxonomy** — five frontier multi-agent strategies composed into a single architecture: three-role system (orchestrator, workers, validators), validation contracts, structured agent handoffs, adversarial verification, and the case for serial over parallel execution. Also covers model selection per role as a compounding advantage. This is a different angle from the git-as-state / milestone-based validation / autonomy ratio metrics framing previously inferred from Factory's published docs — more architectural taxonomy, less day-to-day durability patterns. Still directly on-objective for long-running agent work, but listen for the orchestrator/validator architecture rather than the SKILL.md / DroidShield specifics.
 
 #### Alternatives in this slot
 
 | Room | Talk | Speaker | Track | Relevance |
 |---|---|---|---|---|
 | Westminster | CI/CD Is Dead, Agents Need Continuous Compute and Computers | Hugo Santos, Madison Faulkner (Namespace) | AI Architects | The infrastructure bottleneck when agents open hundreds of PRs: runner saturation, cache thrash, test explosion. **Strong alternative** if you're running into CI capacity limits with parallel agents. Less applicable if you're a solo operator |
+| St. James | Beyond Components: Designing Generative UI for MCP Apps | Ruben Casas | MCP | MCP Apps + WebMCP generative UI patterns (static templates → declarative → fully LLM-authored). Off-objective unless you're building MCP-facing UIs — skip |
+| Abbey | Scaling the Next Paradigm of Heterogeneous Intelligence | Adrian Bertagnoli | GPUs & LLM Infra | Multi-agent systems across heterogeneous hardware/models. Off-objective — skip |
 
 ---
 
@@ -441,9 +445,9 @@
 | 10:50-11:08am | Wesley | Two Roads to Durable Agents (Eric Allam) | **CHOSEN** |
 | 11:15-11:40am | Westminster | Context Is the New Code (Patrick Debois, Tessl) | **CHOSEN** |
 | 11:40am-12:00pm | St. James | Chrome DevTools MCP Lessons (Michael Hablich) | **CHOSEN** |
-| 12:00-12:20pm | Fleming | The Year of Latency Debt (Sarah Chieng) | **CHOSEN** |
+| 12:00-12:20pm | Fleming | Fast Models Need Slow Developers (Sarah Chieng) | **CHOSEN** |
 | 12:20-12:40pm | Fleming | Fighting AI with AI (Lawrence Jones) | **CHOSEN** |
-| 12:40-1:00pm | Fleming | Factory Missions (Grinberg, Alvoeiro) | **CHOSEN** |
+| 12:40-1:00pm | Fleming | Factory Missions — Multi-Agent Systems That Ship for Days (Grinberg, Alvoeiro) | **CHOSEN** |
 | 1:25-1:43pm | Shelley | Task Fidelity Scaling Laws | **CHOSEN** |
 | 1:45-2:03pm | Shelley | Comprehend First, Code Later (Sentry) | **CHOSEN** |
 | 2:30-2:50pm | Fleming | Your Coding Agent Should Do AI System Engineering (Burtenshaw, HF) | **CHOSEN** |
@@ -455,7 +459,7 @@
 | 5:20-5:40pm | Keynote | The Friction Is Your Judgment (Armin Ronacher) | **CHOSEN** |
 | 5:40-6:00pm | Keynote | (TBA — Kalbir Sohi) | SKIP unless abstract surfaces |
 
-> **Room-flow note for the 11:15 → 12:00 block.** With Debois now the 11:15 pick, the path is **Westminster (Debois) → St. James (Hablich) → Fleming (Chieng)** — two room changes inside 45 minutes. Probably fine in the QEII Centre but worth knowing. Two zero-churn alternatives if the walks become a problem on the day: **all-Westminster** keeps you with Debois then Mulgrew (off-objective) then Grogan-Avignon/Wang (off-objective) — weak content; **all-St. James** is Carey → Hablich → MCP UI — pure MCP track but you lose Debois's measurement angle and Chieng's latency-debt playbook. The current Westminster → St. James → Fleming path is the strongest content path; the room cost is real but acceptable.
+> **Room-flow note for the 11:15 → 12:00 block.** With Debois now the 11:15 pick, the path is **Westminster (Debois) → St. James (Hablich) → Fleming (Chieng)** — two room changes inside 45 minutes. Probably fine in the QEII Centre but worth knowing. Two zero-churn alternatives if the walks become a problem on the day: **all-Westminster** keeps you with Debois then Mulgrew (off-objective) then Grogan-Avignon/Wang (off-objective) — weak content; **all-St. James** is Carey → Hablich → MCP UI — pure MCP track but you lose Debois's measurement angle and Chieng's fast-models playbook. The current Westminster → St. James → Fleming path is the strongest content path; the room cost is real but acceptable.
 
 ### Hardest trade-offs of the day
 
@@ -463,6 +467,6 @@
 
 2. **2:30pm — Burtenshaw (HF) vs. Sam Morrow (GitHub) vs. Knight-Webb (Vibe Kanban).** A genuine three-way. Burtenshaw = skills in the hardest technical domain (CUDA kernels, 1000+ daily ML experiments). Morrow = the canonical large-scale MCP server case study (4M+ stdio downloads), production extension of Hablich's morning Chrome DevTools MCP talk. Knight-Webb = "plan and review as the new engineering job." **Default: Burtenshaw** for the concrete skills-in-production data. **Switch to Morrow** if you've decided MCP is more load-bearing for your harness than skills and you want to double down on the Hablich thread.
 
-3. **12:40pm — Factory Missions vs. CI/CD Is Dead.** Factory = long-running coding agent patterns extending Day 1's Anthropic workshop. CI/CD = the infrastructure bottleneck when agents open hundreds of PRs. Default: Factory — more directly applicable to your harness work. Switch if you're hitting CI capacity limits today and need the infra angle.
+3. **12:40pm — Factory Missions vs. CI/CD Is Dead.** Factory = multi-agent taxonomy (orchestrator/workers/validators, serial vs parallel, adversarial verification) from production data. CI/CD = the infrastructure bottleneck when agents open hundreds of PRs. Default: Factory — more directly applicable to your harness work. Switch if you're hitting CI capacity limits today and need the infra angle.
 
 4. **No real trade-off at 2:50pm.** Brian Scanlan at Westminster is the strongest pick by a wide margin (production case study from Intercom, peer org running Claude Code on a real SaaS codebase, ~90% of PRs by Claude Code). FOMAT is the fallback only if you're flagging and a phone-based control-plane demo feels like enough. Westminster also keeps you in the same room for Spitz at 3:10 — protect this 40-min block and decompress *between* Spitz and the Gergely fireside instead.
