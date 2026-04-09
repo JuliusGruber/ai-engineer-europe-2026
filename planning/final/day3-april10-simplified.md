@@ -74,15 +74,15 @@
 
 ---
 
-### 11:40am - 12:00pm | St. James
+### 11:40am - 12:00pm | Fleming
 
-**Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents**
+**A Piece of PI — Embedding The OpenClaw Coding Agent In Your Product**
 
 | | |
 |---|---|
-| **Speaker** | Michael Hablich |
-| **Role** | Product Manager @ Google |
-| **Track** | MCP |
+| **Speaker** | Matthias Luebken |
+| **Company** | TAVON.ai |
+| **Track** | Coding Agents |
 | **Type** | Talk |
 
 ---
@@ -161,15 +161,15 @@
 
 ---
 
-### 2:50 - 3:10pm | Westminster
+### 2:50 - 3:10pm | Abbey
 
-**How Building with AI Can Double the Throughput of Your Engineering Team**
+**Beyond Code Coverage: Functionality Testing with Playwright**
 
 | | |
 |---|---|
-| **Speaker** | Brian Scanlan |
-| **Role** | Principal Systems Engineer @ Intercom |
-| **Track** | AI Architects |
+| **Speaker** | Marlene Mhangami |
+| **Company** | Microsoft |
+| **Track** | GPUs & LLM Infrastructure |
 | **Type** | Talk |
 
 ---
@@ -233,14 +233,14 @@
 | 10:30-10:48am | Wordsworth | Can LLMs generate Enterprise Quality Code? | **CHOSEN** |
 | 10:50-11:08am | Shelley | Spec-Driven Testing for Agents (spec types, fuzzing, formal methods) | **CHOSEN** |
 | 11:15-11:40am | Westminster | Context Is the New Code (Debois) | **CHOSEN** |
-| 11:40am-12:00pm | St. James | Chrome DevTools MCP (Hablich) | **CHOSEN** |
+| 11:40am-12:00pm | Fleming | A Piece of PI — OpenClaw Coding Agent (Luebken) | **CHOSEN** |
 | 12:00-12:20pm | Fleming | Fast Models Need Slow Developers (Chieng) | **CHOSEN** |
 | 12:20-12:40pm | Fleming | Fighting AI with AI (Lawrence Jones) | **CHOSEN** |
 | 12:40-1:00pm | Fleming | Factory Missions — Multi-Agent Systems That Ship for Days (Grinberg, Alvoeiro) | **CHOSEN** |
 | 1:25-1:43pm | Shelley | Task Fidelity Scaling Laws | **CHOSEN** |
 | 1:45-2:03pm | Shelley | Comprehend First, Code Later (Sentry) | **CHOSEN** |
 | 2:30-2:50pm | Fleming | Your Coding Agent Should Do AI System Engineering (Burtenshaw) | **CHOSEN** |
-| 2:50-3:10pm | Westminster | Double the Throughput of Your Engineering Team (Scanlan) | **CHOSEN** |
+| 2:50-3:10pm | Abbey | Beyond Code Coverage: Functionality Testing with Playwright (Mhangami) | **CHOSEN** |
 | 3:10-3:30pm | Westminster | Agents Don't Do Standups (Spitz) | **CHOSEN** |
 | 4:05-4:23pm | Wesley | AMA with swyx | **CHOSEN** |
 | 4:30-4:50pm | Keynote | Fireside: Gergely Orosz + Tuomas Artman | **CHOSEN** |
