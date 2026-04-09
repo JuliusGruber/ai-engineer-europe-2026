@@ -91,7 +91,7 @@
 
 ### 12:00 - 12:20pm | Fleming
 
-**The Year of Latency Debt (And How Big Tech Is Paying It Down)**
+**Fast Models Need Slow Developers**
 
 | | |
 |---|---|
@@ -117,7 +117,7 @@
 
 ### 12:40 - 1:00pm | Fleming
 
-**Factory Missions — Super Long Running Agents**
+**Factory Missions — Multi-Agent Systems That Ship for Days**
 
 | | |
 |---|---|
@@ -236,9 +236,9 @@
 | 10:50-11:08am | Wesley | Two Roads to Durable Agents (Allam) | **CHOSEN** |
 | 11:15-11:40am | Westminster | Context Is the New Code (Debois) | **CHOSEN** |
 | 11:40am-12:00pm | St. James | Chrome DevTools MCP (Hablich) | **CHOSEN** |
-| 12:00-12:20pm | Fleming | The Year of Latency Debt (Chieng) | **CHOSEN** |
+| 12:00-12:20pm | Fleming | Fast Models Need Slow Developers (Chieng) | **CHOSEN** |
 | 12:20-12:40pm | Fleming | Fighting AI with AI (Lawrence Jones) | **CHOSEN** |
-| 12:40-1:00pm | Fleming | Factory Missions (Grinberg, Alvoeiro) | **CHOSEN** |
+| 12:40-1:00pm | Fleming | Factory Missions — Multi-Agent Systems That Ship for Days (Grinberg, Alvoeiro) | **CHOSEN** |
 | 1:25-1:43pm | Shelley | Task Fidelity Scaling Laws | **CHOSEN** |
 | 1:45-2:03pm | Shelley | Comprehend First, Code Later (Sentry) | **CHOSEN** |
 | 2:30-2:50pm | Fleming | Your Coding Agent Should Do AI System Engineering (Burtenshaw) | **CHOSEN** |
